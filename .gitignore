@@ -1,0 +1,5 @@
+.venv
+.env
+data
+results
+models_neural_network
