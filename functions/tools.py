@@ -74,20 +74,6 @@ def save_vocabulary(vocabularies, vocabulary_path):
         json.dump(vocabularies, fp)
 
 
-def load_dict_label_ids(path_ids_labels):
-    try:
-        with open(path_ids_labels, 'r', encoding=encoding) as fp:
-            dict_label_ids = json.load(fp)
-    except:
-        return None
-    return dict_label_ids
-
-
-def save_dict_label_ids(dict_label_ids, path_ids_labels):
-    with open(path_ids_labels, 'w', encoding=encoding) as fp:
-        json.dump(dict_label_ids, fp)
-
-
 def get_vocabulary_dimension(vocabulary):
     # Get the total dimension of the vocabulary on each column
     dimension = 0
@@ -98,36 +84,6 @@ def get_vocabulary_dimension(vocabulary):
 
 def get_dimension_labels(dict_label_ids):
     return len(dict_label_ids)
-
-
-def create_dict_label_ids(serie):
-    dict_label_ids = {}
-    count = 0
-    serie = np.unique(serie)
-    # Iterate over serie
-    for i in range(len(serie)):
-        # Convert the key to a string
-        key = str(serie[i])
-        if key not in dict_label_ids:
-            dict_label_ids[key] = count
-            count += 1
-    return dict_label_ids
-
-
-def cast_id_to_labels(ids, dict_label_ids):
-    labels = []
-    for i in range(len(ids)):
-        labels.append(dict_label_ids[str(ids[i])])
-    return labels
-
-
-def cast_labels_to_id(labels, dict_label_ids):
-    ids = []
-    for i in range(len(labels)):
-        for key, value in dict_label_ids.items():
-            if value == labels[i]:
-                ids.append(int(key))
-    return ids
 
 
 def get_predictions(model, vector_test_array, dict_label_ids):

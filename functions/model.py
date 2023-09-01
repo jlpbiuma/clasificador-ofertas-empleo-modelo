@@ -6,13 +6,15 @@ from sklearn.utils import shuffle
 from datetime import datetime
 
 
-def model_creation(input_dim, num_classes):
+def create_model(input_dim, num_classes):
     # Model Architecture
     model = keras.Sequential([
         keras.layers.Input(shape=input_dim),
         keras.layers.Flatten(),
-        keras.layers.Dense(2048, activation='relu'),
-        keras.layers.Dense(1024, activation='relu'),
+        # keras.layers.Dense(2048, activation='relu'),
+        # keras.layers.Dense(1024, activation='relu'),
+        keras.layers.Dense(100, activation='relu'),
+        keras.layers.Dense(50, activation='relu'),
         keras.layers.Dense(num_classes, activation='softmax')
     ])
     # Compile the Model
@@ -48,14 +50,8 @@ def create_training_info(train_query, epochs, batch_size, validation_split, verb
 
 
 def model_train(model, train_query, vector_array, label_array, epochs=10, batch_size=32, validation_split=0.2, verbose=1, balance_data=False):
-    create_training_info(train_query, epochs, batch_size,
-                         validation_split, verbose)
-    # if balance_data:
-    #     # Apply oversampling using RandomOverSampler
-    #     oversampler = RandomOverSampler(sampling_strategy='auto')
-    #     vector_array, label_array = oversampler.fit_resample(
-    #         vector_array, label_array)
-    # Train the Model
+    # create_training_info(train_query, epochs, batch_size,
+    #                      validation_split, verbose)
     history = model.fit(vector_array, label_array, epochs=epochs,
                         batch_size=batch_size, validation_split=validation_split)
     return model, history
