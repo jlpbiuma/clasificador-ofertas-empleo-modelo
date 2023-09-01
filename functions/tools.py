@@ -28,22 +28,25 @@ def convert_TEST_to_vector(df_test, vocabularies):
 
 
 def create_vector_columns(df_train):
+    columns = ['SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO', 'CATEGORIA']
     vocabularies = {}
     for column in columns:
-        df_train[column] = df_train[column].fillna("").astype(str)
+        df_train[column] = df_train[column].astype(str)
 
-        tfidf = TfidfVectorizer()
+        # Define a custom analyzer that splits on spaces but keeps multi-word phrases
+        tfidf = TfidfVectorizer(token_pattern=r"(?u)\b\w+\b")
         tfidf.fit_transform(df_train[column]).todense()
 
         vocabularies[column] = list(map(str, tfidf.vocabulary_.keys()))
 
-        df_train[f'vector_{column}'] = df_train[column].apply(lambda x: np.array(
-            [1 if word.lower() in x.lower().split(" ") else 0 for word in vocabularies[column]]))
+    return vocabularies
+    # df_train[f'vector_{column}'] = df_train[column].apply(lambda x: np.array(
+    #     [1 if word.lower() in x.lower().split(" ") else 0 for word in vocabularies[column]]))
 
-    vector_columns = [f'vector_{column}' for column in columns]
-    df_train['vector'] = df_train[vector_columns].apply(
-        lambda x: np.concatenate(x.values), axis=1)
-    return df_train['vector'], vocabularies
+    # vector_columns = [f'vector_{column}' for column in columns]
+    # df_train['vector'] = df_train[vector_columns].apply(
+    #     lambda x: np.concatenate(x.values), axis=1)
+    # return df_train['vector'], vocabularies
 
 
 def load_vector_columns(path_vector, vocabulary_path):
