@@ -3,7 +3,7 @@ import cx_Oracle
 # Set your connection parameters
 username = 'ORIENTADOR'
 password = 'ofulp2023'
-hostname = '10.14.12.164'
+hostname = '192.168.70.205'
 port = '1521'
 sid = 'NEWFULP'
 
