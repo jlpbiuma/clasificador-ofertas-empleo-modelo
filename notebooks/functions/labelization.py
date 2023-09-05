@@ -26,7 +26,10 @@ def create_dict_label_ids(serie):
 def cast_id_to_labels(ids, dict_label_ids):
     labels = []
     for i in range(len(ids)):
-        labels.append(dict_label_ids[str(ids[i])])
+        if str(ids[i]) in dict_label_ids:
+            labels.append(dict_label_ids[str(ids[i])])
+        else:
+            labels.append(-1)
     return np.array(labels)
 
 

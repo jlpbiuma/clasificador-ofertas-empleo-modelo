@@ -1,7 +1,6 @@
 from tensorflow import keras
 import tensorflow as tf
 import json
-from imblearn.over_sampling import RandomOverSampler
 from sklearn.utils import shuffle
 from datetime import datetime
 
@@ -73,12 +72,12 @@ def backpropagation(epochs, model, learning_rate, vector_array, label_array):
     return model
 
 
-def model_save(model, path_model):
+def save_model(model, path_model):
     # Save the Model
     model.save(path_model)
 
 
-def model_load(path_model):
+def load_model(path_model):
     # Load the Model
     try:
         model = keras.models.load_model(path_model)
