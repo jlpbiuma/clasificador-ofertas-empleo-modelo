@@ -45,11 +45,11 @@ def create_diccionario_full_dataset(df):
                 diccionario_ocupacion[palabra] += 1
     return diccionario_ocupacion
 
-def get_offers_signature_relative(df, diccionario_ocupacion, precision=4):
+def get_offers_signature_relative(df, diccionario_ocupacion, precision=2):
     # Get all possible ID_PUESTO_ESCO_ULL
     occupations = df['ID_PUESTO_ESCO_ULL'].unique()
     # Create a new column in the dataframe
-    df['RELATIVE_SIGNATURE'] = 0
+    df['RELATIVE_SIGNATURE'] = 0.0  # Initialize as float
     # Iterate over all occupations
     for occupation_id in occupations:
         # Get all rows with the current occupation
@@ -57,8 +57,8 @@ def get_offers_signature_relative(df, diccionario_ocupacion, precision=4):
         # Iterate over all offers
         signatures = []
         for oferta in occupation_df['PALABRAS_EMPLEO_TEXTO']:
-            # Start the signature in 0
-            signature = 0
+            # Start the signature as a float
+            signature = 0.0
             # Iterate over all words in the current offer
             for word in oferta.split(" ")[:-1]:
                 signature += diccionario_ocupacion[occupation_id][word]
@@ -68,30 +68,39 @@ def get_offers_signature_relative(df, diccionario_ocupacion, precision=4):
         max_signature = max(signatures)
         # Iterate over all signatures and round them to 2 decimals
         for i in range(len(signatures)):
-            signatures[i] = round(signatures[i] / max_signature, 4)
+            signatures[i] = round(signatures[i] / max_signature, precision)
         # Add the signatures to the dataframe
         df.loc[df['ID_PUESTO_ESCO_ULL'] == occupation_id, 'RELATIVE_SIGNATURE'] = signatures
     return df['RELATIVE_SIGNATURE']
 
-def delete_offers_same_occupation_by_signature(df, maxOffers=10, totalOffers=10):
-    # Get all possible ID_PUESTO_ESCO_ULL
-    occupations = df['ID_PUESTO_ESCO_ULL'].unique()
-    # Iterate over all occupations
-    for occupation_id in occupations:
-        # Get all rows with the current occupation
-        occupation_df = df[df['ID_PUESTO_ESCO_ULL'] == occupation_id]
-        # Order by RELATIVE_SIGNATURE
-        occupation_df = occupation_df.sort_values(by='RELATIVE_SIGNATURE', ascending=False).reset_index(drop=True)
-        # Loop from 0 to 1 in RELATIVE_SIGNATURE with steps of 0.01
-        for i in np.arange(0, 1, 0.01):
+def delete_offers_same_occupation_by_signature(df, maxOffers=10, totalOffers=10, precision=2):
+    # Group by ID_PUESTO_ESCO_ULL
+    grouped = df.groupby('ID_PUESTO_ESCO_ULL')
+    # Desviation
+    sigma = 10 ** -(precision + 1)
+    # Calculate step size
+    step_size = 10 ** -precision
+    # Initialize an empty list to store DataFrames for each relative signature
+    array_occupations_ids = []
+    # Loop over all occupations
+    for occupation_id, occupation_df in grouped:
+        for i in np.arange(0, 1 + step_size, step_size):
             # Get all rows with the current relative signature
-            relative_signature_df = occupation_df[occupation_df['RELATIVE_SIGNATURE'] == i]
-            # If the number of rows is greater than maxOffers, delete randomly the register until the number of registers is totalOffers
+            print(i - sigma, i + sigma)
+            min_lim_condition = occupation_df['RELATIVE_SIGNATURE'] >= i - sigma
+            max_lim_condition = occupation_df['RELATIVE_SIGNATURE'] <= i + sigma
+            relative_signature_df = occupation_df[min_lim_condition & max_lim_condition]
             if len(relative_signature_df) > maxOffers:
-                relative_signature_df = relative_signature_df.groupby('RELATIVE_SIGNATURE').apply(lambda x: x.sample(totalOffers)).reset_index(drop=True)
-            # Delete the rows from the original dataframe
-            df = df[~df['ID_OFERTA'].isin(relative_signature_df['ID_OFERTA'])]
-    return df
+                # If the number of rows is greater than maxOffers, sample randomly to limit to totalOffers
+                relative_signature_df = relative_signature_df.sample(n=totalOffers, random_state=42)  # Adjust random_state as needed
+            if len(relative_signature_df) > 0:
+                # Get the IDs of the offers
+                array_occupations_ids.extend(relative_signature_df['ID_OFERTA'].tolist())
+    # Convert the array to a DataFrame or Series
+    ids = pd.DataFrame(array_occupations_ids, columns=['ID_OFERTA'])
+    # Use .isin() to filter rows
+    filtered_df = df[df['ID_OFERTA'].isin(ids['ID_OFERTA'])]
+    return filtered_df
 
 def show_signature_by_occupation(df, id_ocupacion):
     # Filter and sort the data
