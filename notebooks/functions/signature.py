@@ -4,6 +4,7 @@ from bokeh.models import HoverTool, ColumnDataSource
 from bokeh.io import output_notebook
 import pandas as pd
 import numpy as np
+from tqdm import tqdm
 
 def create_diccionario_ocupaciones(df):
     # Get all possible ID_PUESTO_ESCO_ULL
@@ -83,10 +84,9 @@ def delete_offers_same_occupation_by_signature(df, maxOffers=10, totalOffers=10,
     # Initialize an empty list to store DataFrames for each relative signature
     array_occupations_ids = []
     # Loop over all occupations
-    for occupation_id, occupation_df in grouped:
+    for occupation_id, occupation_df in tqdm(grouped, desc="Procesando ocupaciones"):
         for i in np.arange(0, 1 + step_size, step_size):
             # Get all rows with the current relative signature
-            print(i - sigma, i + sigma)
             min_lim_condition = occupation_df['RELATIVE_SIGNATURE'] >= i - sigma
             max_lim_condition = occupation_df['RELATIVE_SIGNATURE'] <= i + sigma
             relative_signature_df = occupation_df[min_lim_condition & max_lim_condition]
@@ -139,3 +139,9 @@ def get_offers_by_relative_signature_and_occupation(df, occupation_id, relative_
     relative_signature_df = occupation_df[occupation_df['RELATIVE_SIGNATURE'] == relative_signature]
     # Return the offers
     return relative_signature_df['ID_OFERTA'].tolist()
+
+def get_offers_by_relative_min_signature_value(df, signature_value):
+    # Get all rows with the current relative signature
+    df = df[df['RELATIVE_SIGNATURE'] >= signature_value]
+    # Return the offers
+    return df

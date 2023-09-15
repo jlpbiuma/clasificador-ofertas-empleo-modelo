@@ -7,12 +7,26 @@ columns = ['SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO', 'CATEGORIA']
 
 encoding = 'utf-8'
 
+def load_json(path):
+    # Initialize an empty list to store the JSON objects
+    data = []
+
+    # Open the JSON file and read each line as a separate JSON object
+    with open(path, encoding='utf-8') as json_file:
+        for line in json_file:
+            try:
+                json_data = json.loads(line)
+                data.append(json_data)
+            except json.JSONDecodeError as e:
+                print(f"Error reading JSON: {e}")
+                # Handle the error as needed
+    return data
+
 
 def count_words(df):
     # Count the number of words in the column PALABRAS_EMPLEO_TEXTO
-    df['count_words'] = df['PALABRAS_EMPLEO_TEXTO'].apply(
-        lambda x: len(x.split(" ")))
-    return df['count_words']
+    df['NUM_WORDS'] = df['PALABRAS_EMPLEO_TEXTO'].apply(lambda x: len(x.split(" ")) - 1)
+    return df['NUM_WORDS']
 
 
 def convert_TEST_to_vector(df_test, vocabularies):

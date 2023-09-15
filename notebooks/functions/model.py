@@ -9,11 +9,11 @@ def create_model(input_dim, num_classes):
     # Model Architecture
     model = keras.Sequential([
         keras.layers.Input(shape=input_dim),
-        keras.layers.Flatten(),
+        # keras.layers.Flatten(),
         # keras.layers.Dense(2048, activation='relu'),
         # keras.layers.Dense(1024, activation='relu'),
-        keras.layers.Dense(100, activation='relu'),
-        keras.layers.Dense(50, activation='relu'),
+        keras.layers.Dense(300, activation='relu'),
+        keras.layers.Dense(120, activation='relu'),
         keras.layers.Dense(num_classes, activation='softmax')
     ])
     # Compile the Model
@@ -51,8 +51,9 @@ def create_training_info(train_query, epochs, batch_size, validation_split, verb
 def model_train(model, train_query, vector_array, label_array, epochs=10, batch_size=32, validation_split=0.2, verbose=1, balance_data=False):
     # create_training_info(train_query, epochs, batch_size,
     #                      validation_split, verbose)
+    callback_early_stopping = keras.callbacks.EarlyStopping(monitor='val_loss', patience=2)
     history = model.fit(vector_array, label_array, epochs=epochs,
-                        batch_size=batch_size, validation_split=validation_split)
+                        batch_size=batch_size, validation_split=validation_split, callbacks=[callback_early_stopping])
     return model, history
 
 
