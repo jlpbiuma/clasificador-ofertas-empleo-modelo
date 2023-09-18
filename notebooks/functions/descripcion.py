@@ -1,23 +1,29 @@
 from collections import Counter
 import matplotlib.pyplot as plt
+import re
 
 def clean_descripcion(df):
-    # Get the column descripcion_oferta which is a string delete additional spaces and split it into a list of words for each register
-    # Access the "descripcion_oferta" column and apply the desired transformations
+    # Get the column descripcion_oferta which is a string, delete additional spaces, and split it into a list of words for each record.
+    # Access the "descripcion_oferta" column and apply the desired transformations.
     df['descripcion_oferta'] = df['descripcion_oferta'].str.strip()  # Remove leading/trailing spaces
     df['descripcion_oferta'] = df['descripcion_oferta'].str.replace(r'\s+', ' ')  # Remove additional spaces
-    df['descripcion_oferta'] = df['descripcion_oferta'].str.replace('.', ' ')  # Replace "." with " "
+    df['descripcion_oferta'] = df['descripcion_oferta'].str.replace('.', ' ').replace(","," ")  # Replace "." and "," with " "
 
-    # Split the cleaned text into a list of words using both " " and "." as separators
+    # Remove links (URLs) from the text using regular expressions
+    df['descripcion_oferta'] = df['descripcion_oferta'].str.replace(r'http\S+|www\.\S+', '', case=False)
+
+    # Split the cleaned text into a list of words using both " " and "." as separators.
     df['descripcion_oferta_words'] = df['descripcion_oferta'].str.split('[ .]')
-    # Delete all '' elements inside the list of words
+    # Delete all '' elements inside the list of words.
     df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(None, x)))
-    # Delete all ' ' elements inside the list of words
+    # Delete all ' ' elements inside the list of words.
     df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(lambda a: a != ' ', x)))
-    # Delete all the elements inside the elements of the list of words that are not letters mayus or minus
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(lambda a: a.isalpha(), x)))
-    # Cast every word to lowercase
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(map(lambda a: a.lower(), x)))
+    # Remove non-alphabetic characters from within the words using regular expressions.
+    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: [re.sub(r'[^a-zA-Z]', '', word) for word in x])
+    # Remove all the words which are empty strings.
+    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(None, x)))
+    # Cast all the words to lowercase.
+    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: [word.lower() for word in x])
     return df
 
 def create_words_count_fulldataset(df):
@@ -85,3 +91,13 @@ def plot_words_count_grouped(words_group, id, N=50):
         plot_words_count(words_group[id], N)
     except:
         print('The id ' + str(id) + ' is not in the dataset')
+
+def create_palabras_empleto_texto_column(df, words_dict):
+    palabras_empleo_texto = []
+    for words_list in df['descripcion_oferta_words']:
+        actual_words = []
+        for word in words_list:
+            if word in words_dict:
+                actual_words.append(word)
+        palabras_empleo_texto.append(' '.join(actual_words).upper())
+    return palabras_empleo_texto
