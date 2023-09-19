@@ -5,25 +5,25 @@ import re
 def clean_descripcion(df):
     # Get the column descripcion_oferta which is a string, delete additional spaces, and split it into a list of words for each record.
     # Access the "descripcion_oferta" column and apply the desired transformations.
-    df['descripcion_oferta'] = df['descripcion_oferta'].str.strip()  # Remove leading/trailing spaces
-    df['descripcion_oferta'] = df['descripcion_oferta'].str.replace(r'\s+', ' ')  # Remove additional spaces
-    df['descripcion_oferta'] = df['descripcion_oferta'].str.replace('.', ' ').replace(","," ")  # Replace "." and "," with " "
+    # df['descripcion_oferta'] = df['descripcion_oferta'].str.strip()  # Remove leading/trailing spaces
+    # df['descripcion_oferta'] = df['descripcion_oferta'].str.replace(r'\s+', ' ')  # Remove additional spaces
+    # df['descripcion_oferta'] = df['descripcion_oferta'].str.replace('.', ' ').replace(","," ").replace("-"," ")  # Replace ".", "," and "-" with " "
 
     # Remove links (URLs) from the text using regular expressions
     df['descripcion_oferta'] = df['descripcion_oferta'].str.replace(r'http\S+|www\.\S+', '', case=False)
 
-    # Split the cleaned text into a list of words using both " " and "." as separators.
-    df['descripcion_oferta_words'] = df['descripcion_oferta'].str.split('[ .]')
-    # Delete all '' elements inside the list of words.
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(None, x)))
-    # Delete all ' ' elements inside the list of words.
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(lambda a: a != ' ', x)))
     # Remove non-alphabetic characters from within the words using regular expressions.
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: [re.sub(r'[^a-zA-Z]', '', word) for word in x])
-    # Remove all the words which are empty strings.
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(None, x)))
-    # Cast all the words to lowercase.
-    df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: [word.lower() for word in x])
+    df['descripcion_oferta'] = df['descripcion_oferta'].apply(lambda x: [re.sub(r'[^a-zA-Z]', ' ', word) for word in x])
+    # # Delete all '' elements inside the list of words.
+    # df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(None, x)))
+    # # Split the cleaned text into a list of words using both " " and "." as separators.
+    # df['descripcion_oferta_words'] = df['descripcion_oferta_words'].str.split('[ .]')
+    # # Delete all ' ' elements inside the list of words.
+    # # df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(lambda a: a != ' ', x)))
+    # # Remove all the words which are empty strings.
+    # df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: list(filter(None, x)))
+    # # Cast all the words to lowercase.
+    # df['descripcion_oferta_words'] = df['descripcion_oferta_words'].apply(lambda x: [word.lower() for word in x])
     return df
 
 def create_words_count_fulldataset(df):

@@ -1,31 +1,40 @@
-import cx_Oracle
+import pandas as pd
+import spacy
+import nltk
+from nltk.stem import WordNetLemmatizer
+from notebooks.functions.tools import load_json
 
-# Set your connection parameters
-username = 'ORIENTADOR'
-password = 'ofulp2023'
-hostname = '192.168.70.205'
-port = '1521'
-sid = 'NEWFULP'
+# Download the NLTK data for Spanish
+nltk.download('wordnet')
 
-# Create a connection string
-dsn = cx_Oracle.makedsn(hostname, port, sid=sid)
+# Load your JSON data here
+# Replace 'your_data.json' with the actual path to your JSON file
+data = load_json('./data/train/train_descripcion_accents.json')
 
-# Establish the connection
-connection = cx_Oracle.connect(username, password, dsn)
+# Now cast data to a DataFrame
+df = pd.DataFrame(data)
 
-# Create a cursor to interact with the database
-cursor = connection.cursor()
+print("Before: " + str(df['descripcion_oferta'].iloc[0]))
 
-# Example query
-query = "SELECT * FROM ORIENTADOR.CONTROL_PROCESOS"
+# Load the Spanish language model for spaCy
+nlp = spacy.load("es_core_news_sm")
 
-# Execute the query
-cursor.execute(query)
+# Create a lemmatizer using NLTK
+lemmatizer = WordNetLemmatizer()
 
-# Fetch and print results
-for row in cursor.fetchall():
-    print(row)
+def clean_text(text):
+    # Process the text using spaCy
+    doc = nlp(text)
+    
+    # Lemmatize the verbs to their infinitive form using NLTK
+    cleaned_tokens = [lemmatizer.lemmatize(token.text, 'v') if token.pos_ == 'VERB' else token.text for token in doc]
+    
+    # Join the cleaned tokens back into a text
+    cleaned_text = ' '.join(cleaned_tokens)
+    return cleaned_text
 
-# Close the cursor and the connection
-cursor.close()
-connection.close()
+# Apply the clean_text function to the 'descripcion_oferta' column
+# Take the first 10 records of the df
+new_df = df['descripcion_oferta'].iloc[:11]
+examples = new_df.apply(clean_text)
+print("After: " + examples[0])
