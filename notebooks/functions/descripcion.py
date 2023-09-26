@@ -31,7 +31,7 @@ def create_words_count_fulldataset(df):
     # Create a list of all the words in the dataset
     words = []
     for i in range(df.shape[0]):
-        words.extend(df['descripcion_oferta_words'].iloc[i])
+        words.extend(df['palabras_descripcion_oferta'].iloc[i])
     # Create a dict with the number of times each word appears in the dataset
     words_dict = {}
     for word in words:
@@ -43,7 +43,7 @@ def create_words_count_fulldataset(df):
 
 def create_words_count_groupdataset(df):
     # Group by 'id_puesto_esco_ull' and concatenate the lists within each group
-    df_grouped = df.groupby('id_puesto_esco_ull')['descripcion_oferta_words'].apply(lambda x: [word for words in x for word in words])
+    df_grouped = df.groupby('id_puesto_esco_ull')['palabras_descripcion_oferta'].apply(lambda x: [word for words in x for word in words])
     # Create a dictionary to store the word frequencies for each group
     result_dict = {}
     # Iterate through the groups and count word frequencies
@@ -94,7 +94,7 @@ def plot_words_count_grouped(words_group, id, N=50):
 
 def create_palabras_empleto_texto_column(df, words_dict):
     palabras_empleo_texto = []
-    for words_list in df['descripcion_oferta_words']:
+    for words_list in df['palabras_descripcion_oferta']:
         actual_words = []
         for word in words_list:
             if word in words_dict:
