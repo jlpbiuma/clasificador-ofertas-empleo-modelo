@@ -1,104 +1,101 @@
-import requests
-from bs4 import BeautifulSoup
-import re
 import json
 import time
+import requests
+from bs4 import BeautifulSoup
 from tqdm import tqdm
+import re
+from unidecode import unidecode
 
-def get_conjugation_list(verbs):
-    # Define a list of pronouns to remove
-    pronouns = ["yo", "tú", "él", "nosotros", "vosotros", "ellos"]
-    verbs = ''.join(verbs)
-    # Remove pronouns and strip the string
-    for pronoun in pronouns:
-        verbs = verbs.replace(pronoun, "")
-    # Remove additional spaces with regex
-    verbs = re.sub(' +', ' ', verbs)
-    # Split by " "
-    if verbs.strip()[0] == "h":
-        verbs = verbs.strip().split(" h")
-        # And add the "h" again at the beginning of each element
-        verbs = ["h" + verbs[i] if i > 0 else verbs[i] for i in range(len(verbs))]
-    else:
-        verbs = verbs.strip().split(" ")
-    return verbs
+modes_index = {
+    10: "Indicativo",
+    18: "Subjuntivo",
+    20: "Imperativo",
+    22: "Infinitivo",
+    24: "Gerundio",
+    25: "Participio"
+}
 
-def get_conjugation_imperative_list(verbs, form):
-    if "Imperativo negativo" == form:
-        verb = ''.join(verbs)
-        # Remove the "no" and "-" from the string
-        verb_forms = verb.replace("no ", " ").replace("-", "").strip().split(" ")
-    else:
-        # Remove "-" from the string
-        verbs = ' '.join(verbs)
-        # Delete "-" from the string
-        verbs = verbs.replace("-", "")
-        # Split by " "
-        verb_forms = verbs.strip().split(" ")
-        if len(verb_forms) == 10:
-            # Join the 0 element with the 1 element and so on
-            verb_forms = [verb_forms[i] + verb_forms[i+1] for i in range(0, len(verb_forms), 2)]
-    return verb_forms
+def get_mode_by_index(index):
+    for mode_index in modes_index.keys():
+        if index < mode_index:
+            return modes_index[mode_index]
 
-def clasify_verb_form(verbs, form, actual_forms):
-    if "Simple" == form:
-        verb = ''.join(verbs)
-        if "Simple" not in actual_forms:
-            form = "Infinitivo simple"
-            verb_forms = [verb]
+def initialize_dict_mode_time(gauche_div):
+    index = 0
+    conjugations = {}  # Dictionary to store conjugations
+    for mode in modes_index.values():
+        conjugations[mode] = {}
+    all_times_modes = gauche_div.find_all("div", class_="tempstab")
+    for all_times in all_times_modes:
+        all_times = all_times.find_all("h3", class_="tempsheader")
+        for time in all_times:
+            time = time.text.strip()
+            # Get the mode by index
+            mode = get_mode_by_index(index)
+            conjugations[mode][time] = [] 
+        index += 1
+    return conjugations
+
+def get_time(tense_div):
+    return tense_div.find("h3", class_="tempsheader").text.strip()
+
+def get_conjugations(tense_div, mode):
+    # Extract conjugation time for the tense
+    html_elements = tense_div.find_all("div", class_="tempscorps")[0]
+    # Get all the html elements inside the div and print them
+    conjugations = ""
+    # Loop over all the elements of the div with class "_tempscorps"
+    for element in html_elements:
+        # Omit the <br> elements
+        if element.name != "br":
+            conjugations += element.text
+        # Add a new line when the element is <br>
         else:
-            form = "Gerundio simple"
-            verb_forms = [verb]
-    elif "Compuesto" == form:
-        verb = ''.join(verbs)
-        # Remove additional spaces with regex
-        verb = re.sub(' +', ' ', verb)
-        if "Compuesto" not in actual_forms:
-            form = "Infinitivo compuesto"
-            verb_forms = [verb]
-        else:
-            form = "Gerundio compuesto"
-            verb_forms = [verb]
-    elif "Imperativo" in form:
-        verb_forms = get_conjugation_imperative_list(verbs, form)
+            conjugations += "\n"
+    pronuons = ["yo", "tú", "él", "nosotros", "vosotros", "ellos"]
+    # Remove the pronouns from the conjugations
+    for pronuon in pronuons:
+        conjugations = conjugations.replace(pronuon, "")
+    # Remove unnecessary spaces regex
+    conjugations = re.sub(' +', ' ', conjugations)
+    if "Imperativo" in mode:
+        # Remove "no", "-" and " " from the conjugations
+        conjugations = conjugations.replace("no", "").replace("-", "").replace(" ", "")
+        result = conjugations.strip().split("\n")
     else:
-        # Create list of verbs with their conjugations
-        verb_forms = get_conjugation_list(verbs)
-    return form, verb_forms
+        result = conjugations.strip().split("\n ")
+    return result
+        
 
 def scrape_verb_conjugations(verb):
     # URL of the website to scrape
     url = f"https://www.conjugacion.es/del/verbo/{verb}.php"
-
     # Send an HTTP GET request to the URL
     response = requests.get(url)
-
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
         # Parse the HTML content of the page using BeautifulSoup
         soup = BeautifulSoup(response.text, "html.parser")
-
-        conjugations = {}  # Dictionary to store conjugations
-
         # Find the element with id "gauche" that contains verb conjugation data
         gauche_div = soup.find("div", id="gauche")
         if gauche_div is not None:
             # Loop through all conjugation tenses
+            total_conjugations = 0
+            conjugations_verb = initialize_dict_mode_time(gauche_div)
+            index = 0
             for tense_div in gauche_div.find_all("div", class_="tempstab"):
-                form = tense_div.find("h3", class_="tempsheader").text.strip()  # Get the tense name
-                # Eliminar el imperativo negativo ya que se repite
-                
-                # Extract conjugation forms for the tense
-                verbs = tense_div.find_all("div", class_="tempscorps")[0].stripped_strings
-                # Classify the verb form
-                form, verb_forms = clasify_verb_form(verbs, form, conjugations.keys())
-                # Add the verb form and its conjugations to the dictionary
-                conjugations[form] = verb_forms
-            # Get the total number of conjugations
-            total_conjugations = sum([len(conjugations[form]) for form in conjugations])
+                # Inference the mode with the current index of the loop
+                mode = get_mode_by_index(index)
+                # Get time
+                time = get_time(tense_div)
+                # Add the verb time and its conjugations to the dictionary
+                conjugations_verb[mode][time] = get_conjugations(tense_div, mode)
+                # Add the number of conjugations
+                total_conjugations += len(conjugations_verb[mode][time])
+                # Add 1 to the index
+                index += 1
             # Stablish infinitive
-            conjugations["Infinitivo"] = verb
-            return conjugations, total_conjugations
+            return conjugations_verb, total_conjugations
         else:
             return {}
     else:
@@ -114,17 +111,17 @@ def read_verbs(verbs_path):
 
 def read_dictionary(dictionary_path):
     # This functions allows to read the dictionary
-    with open(dictionary_path, "r", encoding="utf-8") as f:
-        dictionary = json.load(f, ensure_ascii=False, indent=4)
-    return dictionary
+    try:
+        with open(dictionary_path, "r", encoding="utf-8") as f:
+            dictionary = json.load(f, ensure_ascii=False, indent=4)
+        return dictionary
+    except:
+        return {}
 
-verbs = read_verbs("./data/diccionario/verbos-espanol.txt")
-# diccionario = read_dictionary("./data/diccionario/verbos-espanol.json")
-
-def add_verbs_conjugation_to_dictionary_by_range(verbs, diccionario):
+def create_dictionary(verbs, diccionario):
     # This function scrapes the conjugations of the verbs in the list
     verbos_actuales = list(diccionario.keys())
-    diccionario = {}
+    dict_verbs= {}
     errores = []
     actual_amount = 0
     pbar = tqdm(verbs, total=len(verbs))
@@ -156,47 +153,28 @@ def write_dictionary(dictionary, dictionary_path):
 def create_all_conjugations_list(dictionary):
     # Expand the dictionary to a list of all conjugations
     all_conjugations = []
-    for verb in dictionary.keys():
-        for conjugation in dictionary[verb].keys():
-            all_conjugations.extend(dictionary[verb][conjugation])
+    for verb_index in dictionary.keys():
+        modes = dictionary[verb_index].keys()
+        for mode in modes:
+            times = dictionary[verb_index][mode].keys()
+            for time in times:
+                for conjugation in dictionary[verb_index][mode][time]:
+                    all_conjugations.append(unidecode(conjugation))
     return all_conjugations
 
-def get_index_of_alphabet_all_conjugations(all_conjugations):
-    # Get the index of the first conjugation of each letter
-    index_of_alphabet = {}
-    alphabet = "abcdefghijklmnñopqrstuvwxyz"
-    for conjugation in all_conjugations:
-        first_letter = conjugation[0]
-        if first_letter in alphabet and first_letter not in index_of_alphabet.keys():
-            # Get the index of the actual conjugation in all_conjugations
-            index_of_alphabet[first_letter] = all_conjugations.index(conjugation)
-    return index_of_alphabet
+def get_infinitive(dictionary, range_index):
+    return dictionary[range_index]["Infinitivo"]['Simple'][0]
 
-def get_index_range(word, index_of_alphabet, total_conjugations):
-    # Get the index range of the conjugations of a word to find more efficiently
-    first_letter = word[0]
-    alphabet = "abcdefghijklmnñopqrstuvwxyz"
-    if first_letter in alphabet:
-        start_index = index_of_alphabet[first_letter]
-        if first_letter == "z":
-            end_index = total_conjugations
-        else:
-            alphabet_index = alphabet.index(first_letter)
-            end_index = index_of_alphabet[alphabet[alphabet_index + 1]]
-        return start_index, end_index
-    else:
-        return -1, -1
-    
-def verify_is_verb(word, index_of_alphabet, all_conjugations, dictionary, all_ranges, total_conjugations):
-    start, end = get_index_range(word, index_of_alphabet, total_conjugations)
-    # Find the word in the list of conjugations
-    if start != -1 and end != -1:
-        # Get index in the range in all conjugations
-        index = all_conjugations[start:end].index(word)
+def verify_is_verb(word, all_conjugations, dictionary):
+    # Find word in all_conjugations and get the infinitive
+    try:
+        index = all_conjugations.index(word.lower())
         if index != -1:
-            # Find the greater key in the dictionary that is smaller than the index
-            for range_index in all_ranges:
-                if range_index <= start:
-                    verb = dictionary[range_index]["Infinitivo"]
-                    return verb
-    return False
+            for range_index in dictionary.keys():
+                # Verify if the index is smaller than the range index, if yes, return the infinitive
+                if index < range_index:
+                    return get_infinitive(dictionary, range_index)
+        else:
+            return ""
+    except:
+        return ""
