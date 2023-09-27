@@ -129,7 +129,7 @@ def create_dictionary(verbs, diccionario):
         last_chars = verb[-2:]
         if last_chars in ["ar", "er", "ir"]:
             pbar.set_description(f"Processing {verb}")
-            time.sleep(0.3)
+            time.sleep(0.1)
             try:
                 conjugation_data, total_conjugations = scrape_verb_conjugations(verb)
                 if conjugation_data == {}:
@@ -188,7 +188,7 @@ def main():
     # Create all conjugations list
     all_conjugations = create_all_conjugations_list(dict_verbs)
     # Write the dictionary
-    write_dictionary(dict_verbs, "./data/diccionario/verbos-espanol.json")
+    write_dictionary(dict_verbs, "./data/diccionario/verbos_todas_conjugacion_esp.json")
     # See all "Infinitivo"
     for verb in dict_verbs.keys():
         print(dict_verbs[verb]["Infinitivo"]['Simple'][0])
