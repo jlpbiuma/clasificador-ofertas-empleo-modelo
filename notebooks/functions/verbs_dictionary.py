@@ -1,10 +1,11 @@
-import json
-import time
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
+import time
 from tqdm import tqdm
 import re
 from unidecode import unidecode
+
 
 modes_index = {
     10: "Indicativo",
@@ -22,7 +23,7 @@ def get_mode_by_index(index):
 
 def initialize_dict_mode_time(gauche_div):
     index = 0
-    conjugations = {}  # Dictionary to store conjugations
+    conjugations = {}  # verbs_df to store conjugations
     for mode in modes_index.values():
         conjugations[mode] = {}
     all_times_modes = gauche_div.find_all("div", class_="tempstab")
@@ -57,7 +58,7 @@ def get_conjugations(tense_div, mode):
     for pronuon in pronuons:
         conjugations = conjugations.replace(pronuon, "")
     # Remove unnecessary spaces regex
-    conjugations = re.sub(' +', ' ', conjugations)
+    conjugations = unidecode(re.sub(' +', ' ', conjugations))
     if "Imperativo" in mode:
         # Remove "no", "-" and " " from the conjugations
         conjugations = conjugations.replace("no", "").replace("-", "").replace(" ", "")
@@ -66,41 +67,84 @@ def get_conjugations(tense_div, mode):
         result = conjugations.strip().split("\n ")
     return result
         
+def cast_dict_to_df(conjugations_verb):
+    # Define the mode prefixes
+    mode_prefixes = {
+        'Indicativo': 'Indicativo_',
+        'Subjuntivo': 'Subjuntivo_',
+        'Imperativo': 'Imperativo_',
+        'Infinitivo': 'Infinitivo_',
+        'Gerundio': 'Gerundio_',
+        'Participio': 'Participio_'
+    }
+
+    # Initialize an empty dictionary to store the modified conjugations
+    modified_conjugations = {}
+
+    # Loop through the original conjugations
+    for mode, mode_conjugations in conjugations_verb.items():
+        # Get the appropriate prefix for the mode
+        mode_prefix = mode_prefixes.get(mode, '')
+
+        # Initialize an empty dictionary for the mode's conjugations
+        modified_mode_conjugations = {}
+
+        # Loop through the tense and conjugation data for the mode
+        for tense, tense_conjugations in mode_conjugations.items():
+            # Add the tense with the prefix to the modified conjugations
+            modified_tense = mode_prefix + tense
+            modified_mode_conjugations[modified_tense] = tense_conjugations
+
+        # Add the modified mode and its conjugations to the result
+        modified_conjugations.update(modified_mode_conjugations)
+
+    # Create a DataFrame from the modified conjugations
+    df = pd.DataFrame([modified_conjugations])
+
+    # Return the DataFrame
+    return df
 
 def scrape_verb_conjugations(verb):
-    # URL of the website to scrape
-    url = f"https://www.conjugacion.es/del/verbo/{verb}.php"
-    # Send an HTTP GET request to the URL
-    response = requests.get(url)
-    # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        # Parse the HTML content of the page using BeautifulSoup
-        soup = BeautifulSoup(response.text, "html.parser")
-        # Find the element with id "gauche" that contains verb conjugation data
-        gauche_div = soup.find("div", id="gauche")
-        if gauche_div is not None:
-            # Loop through all conjugation tenses
-            total_conjugations = 0
-            conjugations_verb = initialize_dict_mode_time(gauche_div)
-            index = 0
-            for tense_div in gauche_div.find_all("div", class_="tempstab"):
-                # Inference the mode with the current index of the loop
-                mode = get_mode_by_index(index)
-                # Get time
-                time = get_time(tense_div)
-                # Add the verb time and its conjugations to the dictionary
-                conjugations_verb[mode][time] = get_conjugations(tense_div, mode)
-                # Add the number of conjugations
-                total_conjugations += len(conjugations_verb[mode][time])
-                # Add 1 to the index
-                index += 1
-            # Stablish infinitive
-            return conjugations_verb, total_conjugations
-        else:
-            return {}
-    else:
-        return {}
-    
+    try:
+        # URL of the website to scrape
+        url = f"https://www.conjugacion.es/del/verbo/{unidecode(verb)}.php"
+        # Send an HTTP GET request to the URL
+        response = requests.get(url)
+        # Check if the request was successful (status code 200)
+        if response.status_code == 200:
+            # Parse the HTML content of the page using BeautifulSoup
+            soup = BeautifulSoup(response.text, "html.parser")
+            # Find the element with id "gauche" that contains verb conjugation data
+            gauche_div = soup.find("div", id="gauche")
+            if gauche_div is not None:
+                # Loop through all conjugation tenses
+                conjugations_verb = initialize_dict_mode_time(gauche_div)
+                index = 0
+                for tense_div in gauche_div.find_all("div", class_="tempstab"):
+                    # Inference the mode with the current index of the loop
+                    mode = get_mode_by_index(index)
+                    # Get time
+                    time = get_time(tense_div)
+                    # Add the verb time and its conjugations to the verbs_df
+                    conjugations_verb[mode][time] = get_conjugations(tense_div, mode)
+                    # Add 1 to the index
+                    index += 1
+                # Stablish infinitive
+                return cast_dict_to_df(conjugations_verb)
+        # If any errors occur, return an empty DataFrame
+        return pd.DataFrame()
+    except Exception as e:
+        # Handle the exception (e.g., log it) and return an empty DataFrame
+        print(f"Error: {str(e)}")
+        return pd.DataFrame()
+
+def move_inf_first_column(verbs_df_conjugated):
+    # Move the column "Infinitivo_Simple" to the first position
+    if 'Infinitivo_Simple' in verbs_df_conjugated.columns:
+        infinitivo_simple = verbs_df_conjugated.pop('Infinitivo_Simple')
+        verbs_df_conjugated.insert(0, 'Infinitivo_Simple', infinitivo_simple.str[0])
+    return verbs_df_conjugated
+
 def read_verbs(verbs_path):
     # Read txt file with verbs
     with open(verbs_path, "r", encoding="utf-8") as f:
@@ -110,70 +154,70 @@ def read_verbs(verbs_path):
     return verbs
 
 def read_dictionary(dictionary_path):
-    # This functions allows to read the dictionary
+    # Read pandas csv file with verbs
     try:
-        with open(dictionary_path, "r", encoding="utf-8") as f:
-            dictionary = json.load(f, ensure_ascii=False, indent=4)
-        return dictionary
+        verbs_df = pd.read_csv(dictionary_path)
+        return verbs_df
     except:
-        return {}
-
-def create_dictionary(verbs, diccionario):
-    # This function scrapes the conjugations of the verbs in the list
-    verbos_actuales = list(diccionario.keys())
-    dict_verbs= {}
-    errores = []
-    actual_amount = 0
+        return pd.DataFrame()
+    
+def create_dictionary(verbs, verbs_df_prev):
+    verbs_df_conjugated = pd.DataFrame()
+    errors = []
     pbar = tqdm(verbs, total=len(verbs))
+    if not verbs_df_prev.empty:
+        prev_verbs = verbs_df_prev["Infinitivo_Simple"].values
+    else:
+        prev_verbs = []
+    # Loop through the verbs you want to scrape
     for verb in pbar:
+        # Verify if the verb is not already in the verbs_df_conjugated
+        if verb in prev_verbs:
+            continue
         last_chars = verb[-2:]
         if last_chars in ["ar", "er", "ir"]:
             pbar.set_description(f"Processing {verb}")
-            time.sleep(0.3)
-            try:
-                conjugation_data, total_conjugations = scrape_verb_conjugations(verb)
-                if conjugation_data == {}:
-                    continue
-                elif verb not in verbos_actuales:
-                    actual_amount += total_conjugations
-                    # El diccinario se trata de un objeto que tiene como clave el rango numérico de las conjugaciones
-                    # y su valor es un objeto que contiene todas las conjugaciones de un verbo
-                    diccionario[actual_amount] = conjugation_data
-            except:
-                # Hay veces que durante el fetch de la página se produce un error, se deben de volver a hacer
-                errores.append(verb)
+            time.sleep(0.5)
+            conjugation_data = scrape_verb_conjugations(verb)
+            # Vefiy conjugation_data dataframe is not empty
+            if not conjugation_data.empty:
+                # Convert conjugation_data (a dictionary) to a DataFrame
+                conjugation_df = pd.DataFrame.from_dict(conjugation_data)
+                # Add the new conjugation DataFrame to verbs_df_conjugated
+                verbs_df_conjugated = pd.concat([verbs_df_conjugated, conjugation_df], ignore_index=True)
+            else:
+                errors.append(verb)
                 continue
-    return diccionario, errores
+    verbs_df_conjugated = move_inf_first_column(verbs_df_conjugated)
+    return verbs_df_conjugated, errors
 
-def write_dictionary(dictionary, dictionary_path):
-    # This function allows to write the dictionary
-    with open(dictionary_path, "w", encoding="utf-8") as f:
-        json.dump(dictionary, f, ensure_ascii=False, indent=4)
+def write_dictionary(verbs_df, dictionary_path):
+    # Save .csv of the verbs_df
+    verbs_df.to_csv(dictionary_path, index=False)
         
-def create_all_conjugations_list(dictionary):
-    # Expand the dictionary to a list of all conjugations
+def create_all_conjugations_list(verbs_df):
     all_conjugations = []
-    for verb_index in dictionary.keys():
-        modes = dictionary[verb_index].keys()
-        for mode in modes:
-            times = dictionary[verb_index][mode].keys()
-            for time in times:
-                for conjugation in dictionary[verb_index][mode][time]:
-                    all_conjugations.append(unidecode(conjugation))
+    # Now loop over rows
+    for index, row in verbs_df.iterrows():
+        for column in verbs_df.columns:
+            if column == "Infinitivo_Simple":
+                # Is just a string, simply append it
+                all_conjugations.append(row[column])
+            else:
+                all_conjugations.extend(row[column])
     return all_conjugations
 
-def get_infinitive(dictionary, range_index):
-    return dictionary[range_index]["Infinitivo"]['Simple'][0]
 
-def verify_is_verb(word, all_conjugations, dictionary):
+def get_infinitive(verbs_df, range_index):
+    return verbs_df[range_index]['Infinitivo_Simple'][0]
+
+def verify_is_verb(word, all_conjugations, verbs_df):
     # Find word in all_conjugations and get the infinitive
     try:
-        index = all_conjugations.index(word.lower())
+        index = all_conjugations.index(unidecode(word.lower()))
         if index != -1:
-            for range_index in dictionary.keys():
-                # Verify if the index is smaller than the range index, if yes, return the infinitive
-                if index < range_index:
-                    return get_infinitive(dictionary, range_index)
+            infinitive = get_infinitive(verbs_df, index)
+            return infinitive
         else:
             return ""
     except:
