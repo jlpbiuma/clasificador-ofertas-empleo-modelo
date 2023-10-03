@@ -5,6 +5,7 @@ import time
 from tqdm import tqdm
 import re
 from unidecode import unidecode
+import ast
 
 
 modes_index = {
@@ -48,7 +49,7 @@ def get_conjugations(tense_div, mode):
     # Loop over all the elements of the div with class "_tempscorps"
     for element in html_elements:
         # Omit the <br> elements
-        if element.name != "br":
+        if element.name != "br" and element.text != "-":
             conjugations += element.text
         # Add a new line when the element is <br>
         else:
@@ -105,6 +106,7 @@ def cast_dict_to_df(conjugations_verb):
     return df
 
 def scrape_verb_conjugations(verb):
+    # TODO: Create a new function to scrap to https://dle.rae.es/(verb)
     try:
         # URL of the website to scrape
         url = f"https://www.conjugacion.es/del/verbo/{unidecode(verb)}.php"
@@ -162,11 +164,10 @@ def read_dictionary(dictionary_path):
         return pd.DataFrame()
     
 def create_dictionary(verbs, verbs_df_prev):
-    verbs_df_conjugated = pd.DataFrame()
     errors = []
     pbar = tqdm(verbs, total=len(verbs))
     if not verbs_df_prev.empty:
-        prev_verbs = verbs_df_prev["Infinitivo_Simple"].values
+        prev_verbs = verbs_df_prev["INF"].values
     else:
         prev_verbs = []
     # Loop through the verbs you want to scrape
@@ -181,35 +182,56 @@ def create_dictionary(verbs, verbs_df_prev):
             conjugation_data = scrape_verb_conjugations(verb)
             # Vefiy conjugation_data dataframe is not empty
             if not conjugation_data.empty:
-                # Convert conjugation_data (a dictionary) to a DataFrame
-                conjugation_df = pd.DataFrame.from_dict(conjugation_data)
+                # Convert conjugation_data (a dictionary) to a DataFrame in structured format
+                conjugation_df = cast_vebs_df(pd.DataFrame.from_dict(conjugation_data))
                 # Add the new conjugation DataFrame to verbs_df_conjugated
-                verbs_df_conjugated = pd.concat([verbs_df_conjugated, conjugation_df], ignore_index=True)
+                verbs_df_prev = pd.concat([verbs_df_prev, conjugation_df], ignore_index=True)
             else:
                 errors.append(verb)
                 continue
-    verbs_df_conjugated = move_inf_first_column(verbs_df_conjugated)
-    return verbs_df_conjugated, errors
+    return verbs_df_prev, errors
 
 def write_dictionary(verbs_df, dictionary_path):
     # Save .csv of the verbs_df
     verbs_df.to_csv(dictionary_path, index=False)
         
 def create_all_conjugations_list(verbs_df):
-    all_conjugations = []
-    # Now loop over rows
-    for index, row in verbs_df.iterrows():
-        for column in verbs_df.columns:
-            if column == "Infinitivo_Simple":
-                # Is just a string, simply append it
-                all_conjugations.append(row[column])
-            else:
-                all_conjugations.extend(row[column])
-    return all_conjugations
-
+    return verbs_df["FORMA"].values.tolist()
 
 def get_infinitive(verbs_df, range_index):
     return verbs_df[range_index]['Infinitivo_Simple'][0]
+
+def cast_vebs_df(verbs_df):
+    verbs = []
+    if ['FORMA', 'INF'] == verbs_df.columns.tolist():
+        return verbs_df
+    # Iterate over the rows
+    for index, row in verbs_df.iterrows():
+        # Loop over the columns
+        if isinstance(row['Infinitivo_Simple'], str):
+            infinitivo = row['Infinitivo_Simple']
+        elif isinstance(row['Infinitivo_Simple'], list):
+            infinitivo = row['Infinitivo_Simple'][0]
+        for col in verbs_df.columns:
+            # Read string with ast literal to get list of strings
+            # Verify if the value is an empty list or is a ""
+            if row[col] == "" or len(row[col]) == 0:
+                continue
+            elif col != 'Infinitivo_Simple' and isinstance(row[col], str):
+                conjugations = ast.literal_eval(row[col])
+                # Add the conjugation to the new dataframe
+                for conjugation in conjugations:
+                    verbs.append({"INF": infinitivo, "FORMA": conjugation})
+            elif col != 'Infinitivo_Simple' and isinstance(row[col], list):
+                conjugations = row[col]
+                # Add the conjugation to the new dataframe
+                for conjugation in conjugations:
+                    verbs.append({"INF": infinitivo, "FORMA": conjugation})
+            else:
+                verbs.append({"INF": infinitivo, "FORMA": infinitivo})
+    # Save to dataframe
+    new_df = pd.DataFrame(verbs, columns=["FORMA", "INF"])
+    return new_df
 
 def verify_is_verb(word, all_conjugations, verbs_df):
     # Find word in all_conjugations and get the infinitive

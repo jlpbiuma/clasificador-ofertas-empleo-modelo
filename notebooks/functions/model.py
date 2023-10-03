@@ -5,7 +5,7 @@ from sklearn.utils import shuffle
 from datetime import datetime
 
 
-def create_model(input_dim, num_classes):
+def create_cnn(input_dim, num_classes):
     # Model Architecture
     model = keras.Sequential([
         keras.layers.Input(shape=input_dim),
@@ -19,6 +19,32 @@ def create_model(input_dim, num_classes):
     # Compile the Model
     model.compile(optimizer='adam',
                   loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    return model
+
+def create_rnn(input_dim, num_classes):
+    # Model Architecture
+    model = keras.Sequential([
+        keras.layers.Input(shape=(input_dim,)),  # Input shape accepts sequences of variable length
+        keras.layers.LSTM(64),  # LSTM layer
+        keras.layers.Dense(num_classes, activation='softmax')
+    ])
+    
+    # Compile the Model
+    model.compile(optimizer='adam',
+                  loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    return model
+
+def create_lstm(input_dim, num_classes):
+    # Model Architecture
+    model = keras.Sequential([
+        keras.layers.Input(shape=input_dim),
+        keras.layers.LSTM(300, return_sequences=True),
+        keras.layers.LSTM(120),
+        keras.layers.Dense(num_classes, activation='softmax')
+    ])
+    # Compile the Model
+    model.compile(optimizer='adam',
+                    loss='sparse_categorical_crossentropy', metrics=['accuracy'])
     return model
 
 
