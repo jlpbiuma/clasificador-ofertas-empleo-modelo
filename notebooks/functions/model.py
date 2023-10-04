@@ -25,6 +25,7 @@ def create_rnn(input_dim, num_classes):
     # Model Architecture
     model = keras.Sequential([
         keras.layers.Input(shape=(input_dim,)),  # Input shape accepts sequences of variable length
+        keras.layers.Reshape((1, input_dim)),  # Reshape input to 3D format (batch_size, timesteps, input_dim)
         keras.layers.LSTM(64),  # LSTM layer
         keras.layers.Dense(num_classes, activation='softmax')
     ])

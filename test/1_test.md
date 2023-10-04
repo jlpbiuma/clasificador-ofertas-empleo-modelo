@@ -1,16 +1,16 @@
 ## Descripcion oferta: 
 se busca dependiente para la tienda tezenis en el centro comercial meridiano en santa cruz de tenerife incorporacion inmediata no es necesario experiencia profesional en el sector pero si actitud y ganas de aprender se valorara tener conocimiento de idiomas 
 ### Total de palabras en descripción: 
-41
+258
 
 ## Palabras nuevas: 
-buscar, dependiente, tender, centrar, comercial, meridiano, santo, cruz, tenerife, incorporacion, inmediato, necesario, experiencia, profesional, sector, actitud, ganir, aprender, valorar, tener, conocimiento, idioma
+BUSCAR DEPENDIENTE TENDER CENTRAR COMERCIAL MERIDIANO SANTO CRUZ INCORPORACION INMEDIATO NECESARIO EXPERIENCIA PROFESIONAL SECTOR ACTITUD GANIR APRENDER VALORAR TENER CONOCIMIENTO IDIOMA
 ### Accuracy - palabras nuevas: 
-14
+13
 ### Error - palabras nuevas: 
-27
+28
 ## Palabras nuevas no encontradas en descripción: 
-santo, idioma, valorar, ganir, centrar, buscar, tender, inmediato
+santo, tender, inmediato, ganir, centrar, idioma, buscar, valorar
 
 ## Palabras legacy: 
 dependiente, tiendas, centro, comercial, experiencia, sector, idiomas
@@ -19,9 +19,9 @@ dependiente, tiendas, centro, comercial, experiencia, sector, idiomas
 ### Error - palabras legacy: 
 35
 ## Palabras legacy no encontradas en descripción: 
-tiendas
+idiomas, tiendas, dependiente, comercial, centro, experiencia, sector
 
 ## Tiempo de ejecución: 
-0.09101486206054688 segundos
+0.040065765380859375 segundos
 ## Relación palabras/tiempo: 
-450.47587912318204 palabras/segundo
+6439.412739217367 palabras/segundo
