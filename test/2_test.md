@@ -1,27 +1,27 @@
 ## Descripcion oferta: 
-grupo loxamhune empresa lider en el alquiler de maquinaria y plataformas elevadoras precisa aumentar su red de formadores internos freelance en canarias si te apasiona la formacion y tienes experiencia impartiendo cursos sobre maquinaria y prevencion de riesgos laborales tienes la oportunidad de formar parte de nuestra red de colaboradores internos si eres autonomo a tienes disponibilidad y eres experto a en impartir cursos de este area queremos conocerte requisitos disponer de certificado en formador de formadores minimo horas disponer del titulo del master en prevencion de riesgos laborales con las especialidades seguridad en el trabajo higiene industrial y ergonomia y psicosociologia aplicada tener experiencia en la imparticion de cursos sobre maquinaria operador carretillas operador plataformas moviles de personal pemp trabajos en altura horas operador puente grua bajo norma une experiencia en la imparticion de cursos en prevencion de riesgos laborales del convenio del sector del metal homologados por la fundacion laboral de la construccion flc mantenimiento de maquinaria y vehiculos prevencion riesgos laborales basico horas etc se ofrece contrato mercantil con duracion de ano renovable automaticamente valorable estar certificado como formador a en la imparticion de cursos bajo norma une 
+se busca dependiente para la tienda tezenis en el centro comercial meridiano en santa cruz de tenerife incorporacion inmediata no es necesario experiencia profesional en el sector pero si actitud y ganas de aprender se valorara tener conocimiento de idiomas 
 ### Total de palabras en descripción: 
-1313
+258
 
 ## Palabras nuevas: 
-EMPRESA LIDER ALQUILER MAQUINAR PLATAFORMA ELEVADORA PRECISAR AUMENTAR RED FORMADOR FREELANCE CANARIAS APASIONAR FORMACION EXPERIENCIA IMPARTIR CURSO MAQUINAR PREVENCION RIESGO LABORAL OPORTUNIDAD FORMAR PARTIR RED COLABORADOR AUTONOMO DISPONIBILIDAD EXPERTO IMPARTIR CURSO AREA QUERER REQUISITO DISPONER CERTIFICAR FORMADOR FORMADOR MINIMO HORA DISPONER TITULAR MASTER PREVENCION RIESGO LABORAL ESPECIALIDAD SEGURIDAD TRABAJAR HIGIENE INDUSTRIAL PSICOSOCIOLOGIA APLICADO TENER EXPERIENCIA IMPARTICION CURSO MAQUINAR OPERADOR CARRETILLA OPERADOR PLATAFORMA MOVIL PERSONAL PEMP TRABAJO ALTURA HORA OPERADOR PUENTE NORMA UNIR EXPERIENCIA IMPARTICION CURSO PREVENCION RIESGO LABORAL CONVENIO SECTOR METAL HOMOLOGADO FUNDACION LABORAL CONSTRUCCION FLC MANTENIMIENTO MAQUINAR VEHICULO PREVENCION RIESGO LABORAL BASICO HORA ETC OFRECER CONTRATAR MERCANTIL DURACION ANO RENOVABLE VALORABLE CERTIFICAR FORMADOR IMPARTICION CURSO NORMA UNIR
+BUSCAR DEPENDIENTE TENDER CENTRAR COMERCIAL MERIDIANO SANTO CRUZ INCORPORACION INMEDIATO NECESARIO EXPERIENCIA PROFESIONAL SECTOR ACTITUD GANIR APRENDER VALORAR TENER CONOCIMIENTO IDIOMA
 ### Accuracy - palabras nuevas: 
-62
+13
 ### Error - palabras nuevas: 
-130
+28
 ## Palabras nuevas no encontradas en descripción: 
-apasionar, plataforma, carretilla, titular, vehiculo, aplicado, ofrecer, elevadora, precisar, querer, contratar, certificar, requisito, unir, colaborador, especialidad, homologado, curso, trabajar, riesgo, hora, movil, maquinar, partir
+tender, centrar, idioma, buscar, santo, ganir, valorar, inmediato
 
 ## Palabras legacy: 
-puentes, grua, normas, sector, metales, homologado, construcciones, mantenimiento, vehiculo, contratos, mercantil, renovable, certificaciones, formador, freelance, prl, empresas, alquileres, maquinaria, plataformas, elevadores, red, formaciones, experiencia, prevencion, riesgos, laboral, autonomo, expertos, certificada, master, seguridad, trabajo, higiene, industrial, ergonomia, psicosociologia, imparticion, operador, carretillas, movil, personal, pemp
+dependiente, tiendas, centro, comercial, experiencia, sector, idiomas
 ### Accuracy - palabras legacy: 
-45
+6
 ### Error - palabras legacy: 
-147
+35
 ## Palabras legacy no encontradas en descripción: 
-freelance, pemp, psicosociologia, ergonomia, imparticion, renovable, vehiculo, operador, empresas, mercantil, carretillas, laboral, higiene, prevencion, formador, master, normas, trabajo, metales, puentes, certificaciones, prl, riesgos, homologado, construcciones, sector, alquileres, plataformas, formaciones, industrial, expertos, contratos, grua, certificada, maquinaria, autonomo, red, seguridad, mantenimiento, movil, elevadores, experiencia, personal
+tiendas, dependiente, idiomas, sector, centro, comercial, experiencia
 
 ## Tiempo de ejecución: 
-0.06985139846801758 segundos
+0.04016232490539551 segundos
 ## Relación palabras/tiempo: 
-18797.046713405103 palabras/segundo
+6423.930900607291 palabras/segundo

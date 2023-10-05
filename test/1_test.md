@@ -1,27 +1,27 @@
 ## Descripcion oferta: 
-se busca dependiente para la tienda tezenis en el centro comercial meridiano en santa cruz de tenerife incorporacion inmediata no es necesario experiencia profesional en el sector pero si actitud y ganas de aprender se valorara tener conocimiento de idiomas 
+buscamos una persona encargada de gestionar las reservas de nuestras actividades de buceo horario de las mismas gestion de alojamientos venta de actividades y demas acciones administrativas tambien se hara cargo de reservas telefonicas y presenciales asi como de supervisar que el centro fisico este en buenas condiciones 
 ### Total de palabras en descripción: 
-258
+322
 
 ## Palabras nuevas: 
-BUSCAR DEPENDIENTE TENDER CENTRAR COMERCIAL MERIDIANO SANTO CRUZ INCORPORACION INMEDIATO NECESARIO EXPERIENCIA PROFESIONAL SECTOR ACTITUD GANIR APRENDER VALORAR TENER CONOCIMIENTO IDIOMA
+BUSCAR PERSONA ENCARGADO GESTIONAR RESERVAR ACTIVIDAD BUCEAR HORARIO MISMAS GESTION ALOJAMIENTO VENTA ACTIVIDAD ACCIONAR ADMINISTRATIVO HACER CARGAR RESERVAR TELEFONICO PRESENCIAL SUPERVISAR CENTRAR FISICO BUENAS CONDICIONAR
 ### Accuracy - palabras nuevas: 
-13
+9
 ### Error - palabras nuevas: 
-28
+40
 ## Palabras nuevas no encontradas en descripción: 
-santo, tender, inmediato, ganir, centrar, idioma, buscar, valorar
+encargado, alojamiento, cargar, centrar, telefonico, condicionar, bucear, actividad, buscar, administrativo, hacer, reservar, presencial, accionar
 
 ## Palabras legacy: 
-dependiente, tiendas, centro, comercial, experiencia, sector, idiomas
+administrativo, persona, reservas, buceo, gestion, alojamientos, ventas, telefonicas, supervisar, centro, fisica, condiciones, archivo, facturaciones, correspondencia, recepciones, atenciones, tramitaciones, facturas, data, electronica
 ### Accuracy - palabras legacy: 
-6
+10
 ### Error - palabras legacy: 
-35
+39
 ## Palabras legacy no encontradas en descripción: 
-idiomas, tiendas, dependiente, comercial, centro, experiencia, sector
+atenciones, reservas, fisica, facturaciones, alojamientos, gestion, condiciones, supervisar, recepciones, data, persona, administrativo, facturas, archivo, telefonicas, electronica, tramitaciones, centro, ventas, correspondencia, buceo
 
 ## Tiempo de ejecución: 
-0.040065765380859375 segundos
+0.047576189041137695 segundos
 ## Relación palabras/tiempo: 
-6439.412739217367 palabras/segundo
+6768.0914863016105 palabras/segundo

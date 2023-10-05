@@ -1,27 +1,27 @@
 ## Descripcion oferta: 
-buscamos una persona encargada de gestionar las reservas de nuestras actividades de buceo horario de las mismas gestion de alojamientos venta de actividades y demas acciones administrativas tambien se hara cargo de reservas telefonicas y presenciales asi como de supervisar que el centro fisico este en buenas condiciones 
+ingeniero superior o director de seguridad con experiencia en el ambito de la proteccion fisica en la operacion de instalaciones nucleares
 ### Total de palabras en descripción: 
-322
+138
 
 ## Palabras nuevas: 
-BUSCAR PERSONA ENCARGADO GESTIONAR RESERVAR ACTIVIDAD BUCEAR HORARIO MISMAS GESTION ALOJAMIENTO VENTA ACTIVIDAD ACCIONAR ADMINISTRATIVO HACER CARGAR RESERVAR TELEFONICO PRESENCIAL SUPERVISAR CENTRAR FISICO BUENAS CONDICIONAR
+INGENIERO SUPERIOR DIRECTOR SEGURIDAD EXPERIENCIA AMBITO PROTECCION FISICO OPERACION INSTALACION NUCLEAR
 ### Accuracy - palabras nuevas: 
-9
+8
 ### Error - palabras nuevas: 
-40
+13
 ## Palabras nuevas no encontradas en descripción: 
-presencial, reservar, hacer, encargado, condicionar, centrar, actividad, bucear, alojamiento, buscar, accionar, telefonico, administrativo, cargar
+nuclear, instalacion, fisico
 
 ## Palabras legacy: 
-administrativo, persona, reservas, buceo, gestion, alojamientos, ventas, telefonicas, supervisar, centro, fisica, condiciones, archivo, facturaciones, correspondencia, recepciones, atenciones, tramitaciones, facturas, data, electronica
+
 ### Accuracy - palabras legacy: 
-10
+0
 ### Error - palabras legacy: 
-39
+21
 ## Palabras legacy no encontradas en descripción: 
-persona, data, fisica, gestion, ventas, tramitaciones, condiciones, buceo, atenciones, recepciones, archivo, electronica, centro, facturas, reservas, correspondencia, facturaciones, telefonicas, alojamientos, supervisar, administrativo
+
 
 ## Tiempo de ejecución: 
-0.04335308074951172 segundos
+0.004331111907958984 segundos
 ## Relación palabras/tiempo: 
-7427.384500318969 palabras/segundo
+31862.48772432016 palabras/segundo
