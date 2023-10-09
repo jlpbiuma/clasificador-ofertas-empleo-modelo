@@ -18,7 +18,7 @@ def create_diccionario_ocupaciones(df):
         # Get all words in the current occupation
         diccionario_ocupacion = {}
         # Iterate over all offers
-        for oferta in occupation_df['PALABRAS_EMPLEO_TEXTO']:
+        for oferta in occupation_df['PALABRAS_EMPLEO_TEXTO_NUEVAS']:
             # Get all words in the current offer deleting the last space
             for palabra in oferta.split(" ")[:-1]:
                 # If the word is not in the dictionary, add it
@@ -35,7 +35,7 @@ def create_diccionario_full_dataset(df):
     # Get all words in the current occupation
     diccionario_ocupacion = {}
     # Iterate over all offers
-    for oferta in df['PALABRAS_EMPLEO_TEXTO']:
+    for oferta in df['PALABRAS_EMPLEO_TEXTO_NUEVAS']:
         # Get all words in the current offer deleting the last space
         for palabra in oferta.split(" ")[:-1]:
             # If the word is not in the dictionary, add it
@@ -57,7 +57,7 @@ def get_offers_signature_relative(df, diccionario_ocupacion, precision=2):
         occupation_df = df[df['ID_PUESTO_ESCO_ULL'] == occupation_id]
         # Iterate over all offers
         signatures = []
-        for oferta in occupation_df['PALABRAS_EMPLEO_TEXTO']:
+        for oferta in occupation_df['PALABRAS_EMPLEO_TEXTO_NUEVAS']:
             # Start the signature as a float
             signature = 0.0
             # Iterate over all words in the current offer

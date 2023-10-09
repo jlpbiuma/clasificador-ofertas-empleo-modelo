@@ -10,7 +10,7 @@ def get_vertical_index(vocabularies, column, text):
         return vocabularies[column].index(text)
     elif column == 'SUBCATEGORIA':
         return vocabularies[column].index(text) + len(vocabularies['CATEGORIA'])
-    elif column == 'PALABRAS_EMPLEO_TEXTO':
+    elif column == 'PALABRAS_EMPLEO_TEXTO_NUEVAS':
         return vocabularies[column].index(text) + len(vocabularies['CATEGORIA']) + len(vocabularies['SUBCATEGORIA'])
 
 
@@ -25,9 +25,10 @@ def one_on_feature(text, column, index, offset, vocabularies, matrix):
 
 
 def create_vectorize_dataframe(df_train_subset, vocabularies):
-    columns = ['CATEGORIA', 'SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO']
+    columns = ['CATEGORIA', 'SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO_NUEVAS']
     # Get the total size of vocabulary
     total_size = get_vocabulary_dimension(vocabularies)
+    # total_size = len(vocabularies)
     # Create a matrix of zeros with the shape of the length of the subset and the total size of the vocabulary
     matrix = np.zeros((len(df_train_subset), total_size))
     # Get the offset of the index if the dataframe is a subset
@@ -46,7 +47,7 @@ def create_vectorize_dataframe(df_train_subset, vocabularies):
                     row[column].lower())[0]
                 matrix = one_on_feature(
                     text, column, index, offset, vocabularies, matrix)
-            elif column == 'PALABRAS_EMPLEO_TEXTO':
+            elif column == 'PALABRAS_EMPLEO_TEXTO_NUEVAS':
                 # Split the text by spaces
                 texts = custom_tokenizer_palabras_empleo_texto(
                     row[column].lower())

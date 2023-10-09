@@ -19,7 +19,7 @@ def save_vocabulary(vocabulary, vocabulary_path):
 def create_vocabulary(df_train):
     # This function returns a dictionary with the vocabulary of each column
     # The keys are the columns and the values are the vocabulary of each column
-    columns = ['CATEGORIA', 'SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO']
+    columns = ['CATEGORIA', 'SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO_NUEVAS']
     vocabularies = {}
     for column in columns:
         df_train[column] = df_train[column].astype(str)
@@ -37,4 +37,12 @@ def create_vocabulary(df_train):
 
 def get_vocabulary_dimension(vocabulary):
     # This function returns the total size of the vocabulary (the dimension)
-    return len(vocabulary['CATEGORIA']) + len(vocabulary['SUBCATEGORIA']) + len(vocabulary['PALABRAS_EMPLEO_TEXTO'])
+    return len(vocabulary['CATEGORIA']) + len(vocabulary['SUBCATEGORIA']) + len(vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'])
+
+def filter_vocabulary(vocabulary, vocabulary_delete):
+    words = vocabulary_delete.keys()
+    # Delete the word in vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'] if it is in words
+    for word in vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS']:
+        if word in words:
+            vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'].remove(word)
+    return vocabulary

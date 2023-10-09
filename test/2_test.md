@@ -1,27 +1,27 @@
 ## Descripcion oferta: 
-se busca dependiente para la tienda tezenis en el centro comercial meridiano en santa cruz de tenerife incorporacion inmediata no es necesario experiencia profesional en el sector pero si actitud y ganas de aprender se valorara tener conocimiento de idiomas 
+repartidor autoventas buscamos persona para puesto de chofer repartidor ventas se encargaria de repartir a nuestros clientes y a su vez llevar un seguimiento de ventas de los clientes    ventas reparto almacen
 ### Total de palabras en descripción: 
-258
+209
 
 ## Palabras nuevas: 
-BUSCAR DEPENDIENTE TENDER CENTRAR COMERCIAL MERIDIANO SANTO CRUZ INCORPORACION INMEDIATO NECESARIO EXPERIENCIA PROFESIONAL SECTOR ACTITUD GANIR APRENDER VALORAR TENER CONOCIMIENTO IDIOMA
+REPARTIDOR BUSCAR PERSONA PONER CHOFER REPARTIDOR VENTA ENCARGAR REPARTIR CLIENTE VEZ LLEVAR SEGUIMIENTO VENTA CLIENTE VENTA REPARTIR ALMACEN
 ### Accuracy - palabras nuevas: 
-13
+9
 ### Error - palabras nuevas: 
-28
+26
 ## Palabras nuevas no encontradas en descripción: 
-tender, centrar, idioma, buscar, santo, ganir, valorar, inmediato
+cliente, buscar, encargar, poner, venta
 
 ## Palabras legacy: 
-dependiente, tiendas, centro, comercial, experiencia, sector, idiomas
+repartidor, persona, chofer, ventas, clientes, seguimientos, reparto, almacenes
 ### Accuracy - palabras legacy: 
-6
+10
 ### Error - palabras legacy: 
-35
+25
 ## Palabras legacy no encontradas en descripción: 
-tiendas, dependiente, idiomas, sector, centro, comercial, experiencia
+seguimientos, clientes, repartidor, almacenes, persona, chofer, reparto, ventas
 
 ## Tiempo de ejecución: 
-0.04016232490539551 segundos
+0.44431138038635254 segundos
 ## Relación palabras/tiempo: 
-6423.930900607291 palabras/segundo
+470.3908322543152 palabras/segundo

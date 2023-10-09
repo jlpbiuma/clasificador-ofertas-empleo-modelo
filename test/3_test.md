@@ -1,27 +1,27 @@
 ## Descripcion oferta: 
-se requiere cocinero salario superior a convenio requisitos experiencia minima ano en un solo lugar rapidez trabajo bajo presion organizacion y orden seriedad y puntualidad dos dias libres a la semana y festivos libre por favor abstenerse personas sin los requisitos anteriores para empezar de inmediato 
+dependiente a abrimos proceso de seleccion para dependiente comercial en tienda yoigo de centro comercial las arenas  no se requiere experiencia previa   
 ### Total de palabras en descripción: 
-304
+154
 
 ## Palabras nuevas: 
-REQUERIR COCINERO SALARIAR SUPERIOR CONVENIO REQUISITO EXPERIENCIA MINIMO ANO LUGAR RAPIDEZ TRABAJAR PRESION ORGANIZACION ORDEN PUNTUALIDAD DIA LIBRAR SEMANA FESTIVO LIBRAR FAVOR PERSONA REQUISITO ANTERIOR EMPEZAR INMEDIATO
+DEPENDIENTE ABRIR PROCESAR SELECCION DEPENDIENTE COMERCIAL TENDER YOIGO CENTRAR COMERCIAL ARENAR REQUERIR EXPERIENCIA PREVIA
 ### Accuracy - palabras nuevas: 
-15
+8
 ### Error - palabras nuevas: 
-32
+18
 ## Palabras nuevas no encontradas en descripción: 
-anterior, minimo, requisito, persona, dia, librar, trabajar, salariar, festivo, requerir
+tender, arenar, requerir, procesar, centrar, abrir
 
 ## Palabras legacy: 
-
+dependiente, procesos, seleccion, comercial, tiendas, centro, experiencia
 ### Accuracy - palabras legacy: 
-0
+7
 ### Error - palabras legacy: 
-47
+19
 ## Palabras legacy no encontradas en descripción: 
-
+tiendas, procesos, centro, dependiente, seleccion, comercial, experiencia
 
 ## Tiempo de ejecución: 
-0.0437922477722168 segundos
+0.32178378105163574 segundos
 ## Relación palabras/tiempo: 
-6941.867921035726 palabras/segundo
+478.58223151181153 palabras/segundo

@@ -1,27 +1,27 @@
 ## Descripcion oferta: 
-grupo loxamhune empresa lider en el alquiler de maquinaria y plataformas elevadoras precisa aumentar su red de formadores internos freelance en canarias si te apasiona la formacion y tienes experiencia impartiendo cursos sobre maquinaria y prevencion de riesgos laborales tienes la oportunidad de formar parte de nuestra red de colaboradores internos si eres autonomo a tienes disponibilidad y eres experto a en impartir cursos de este area queremos conocerte requisitos disponer de certificado en formador de formadores minimo horas disponer del titulo del master en prevencion de riesgos laborales con las especialidades seguridad en el trabajo higiene industrial y ergonomia y psicosociologia aplicada tener experiencia en la imparticion de cursos sobre maquinaria operador carretillas operador plataformas moviles de personal pemp trabajos en altura horas operador puente grua bajo norma une experiencia en la imparticion de cursos en prevencion de riesgos laborales del convenio del sector del metal homologados por la fundacion laboral de la construccion flc mantenimiento de maquinaria y vehiculos prevencion riesgos laborales basico horas etc se ofrece contrato mercantil con duracion de ano renovable automaticamente valorable estar certificado como formador a en la imparticion de cursos bajo norma une 
+dependiente a stradivarius cc palmeras fuerteventura horas semanales tus funciones principales seran atencion al cliente y ventas gestion del producto en tiendas reposicion doblado perchado etc se ofrece vacante a media jornada  queremos incorporar personas con pasion por la moda y las tendencias con gusto para crear total looks y ofrecer un asesoramiento de calidad al cliente el perfil que buscamos es el de una persona extrovertida dinamica con capacidad de trabajo en equipo y flexibilidad horaria se trata de una vacante a media jornada y requiere incorporacion inmediata y disponibilidad horaria completa   
 ### Total de palabras en descripción: 
-1313
+615
 
 ## Palabras nuevas: 
-EMPRESA LIDER ALQUILER MAQUINAR PLATAFORMA ELEVADORA PRECISAR AUMENTAR RED FORMADOR FREELANCE CANARIAS APASIONAR FORMACION EXPERIENCIA IMPARTIR CURSO MAQUINAR PREVENCION RIESGO LABORAL OPORTUNIDAD FORMAR PARTIR RED COLABORADOR AUTONOMO DISPONIBILIDAD EXPERTO IMPARTIR CURSO AREA QUERER REQUISITO DISPONER CERTIFICAR FORMADOR FORMADOR MINIMO HORA DISPONER TITULAR MASTER PREVENCION RIESGO LABORAL ESPECIALIDAD SEGURIDAD TRABAJAR HIGIENE INDUSTRIAL PSICOSOCIOLOGIA APLICADO TENER EXPERIENCIA IMPARTICION CURSO MAQUINAR OPERADOR CARRETILLA OPERADOR PLATAFORMA MOVIL PERSONAL PEMP TRABAJO ALTURA HORA OPERADOR PUENTE NORMA UNIR EXPERIENCIA IMPARTICION CURSO PREVENCION RIESGO LABORAL CONVENIO SECTOR METAL HOMOLOGADO FUNDACION LABORAL CONSTRUCCION FLC MANTENIMIENTO MAQUINAR VEHICULO PREVENCION RIESGO LABORAL BASICO HORA ETC OFRECER CONTRATAR MERCANTIL DURACION ANO RENOVABLE VALORABLE CERTIFICAR FORMADOR IMPARTICION CURSO NORMA UNIR
+DEPENDIENTE STRADIVARIUS CC PALMERO FUERTEVENTURA HORA SEMANAL FUNCIONAR PRINCIPAL SER ATENCION CLIENTE VENTA GESTION PRODUCTO TENDER REPOSICION DOBLAR PERCHAR ETC OFRECER VACANTE MEDIAR JORNADA QUERER INCORPORAR PERSONA PASION MODA TENDENCIA GUSTAR CREAR LOOK OFRECER ASESORAMIENTO CALIDAD CLIENTE PERFIL BUSCAR PERSONA EXTROVERTIDO DINAMICA CAPACIDAD TRABAJAR EQUIPAR FLEXIBILIDAD HORARIO TRATAR VACANTE MEDIAR JORNADA REQUERIR INCORPORACION INMEDIATO DISPONIBILIDAD HORARIO COMPLETAR
 ### Accuracy - palabras nuevas: 
-62
+29
 ### Error - palabras nuevas: 
-130
+68
 ## Palabras nuevas no encontradas en descripción: 
-curso, plataforma, unir, trabajar, querer, apasionar, homologado, partir, requisito, maquinar, hora, certificar, carretilla, elevadora, titular, precisar, riesgo, contratar, vehiculo, aplicado, ofrecer, colaborador, especialidad, movil
+tender, extrovertido, completar, trabajar, perchar, horario, semanal, funcionar, ser, gustar, buscar, equipar, requerir, look, tratar, tendencia, palmero, querer, mediar, doblar, principal, venta, inmediato, hora
 
 ## Palabras legacy: 
-puentes, grua, normas, sector, metales, homologado, construcciones, mantenimiento, vehiculo, contratos, mercantil, renovable, certificaciones, formador, freelance, prl, empresas, alquileres, maquinaria, plataformas, elevadores, red, formaciones, experiencia, prevencion, riesgos, laboral, autonomo, expertos, certificada, master, seguridad, trabajo, higiene, industrial, ergonomia, psicosociologia, imparticion, operador, carretillas, movil, personal, pemp
+dependiente, palmeras, semanales, atenciones, ventas, gestion, productos, clientes, tiendas, reposicion, persona, pasion, moda, tendencias, asesoramiento, calidad, extrovertido, dinamica, capacidad, trabajo, equipos, trata
 ### Accuracy - palabras legacy: 
-45
+17
 ### Error - palabras legacy: 
-147
+80
 ## Palabras legacy no encontradas en descripción: 
-carretillas, puentes, freelance, empresas, riesgos, personal, certificaciones, grua, maquinaria, homologado, formaciones, renovable, mantenimiento, construcciones, prl, autonomo, mercantil, pemp, industrial, normas, prevencion, psicosociologia, elevadores, imparticion, plataformas, master, trabajo, certificada, ergonomia, formador, red, alquileres, vehiculo, laboral, experiencia, expertos, operador, seguridad, sector, contratos, movil, metales, higiene
+trabajo, extrovertido, gestion, dinamica, equipos, trata, tiendas, moda, tendencias, dependiente, persona, atenciones, calidad, capacidad, productos, palmeras, pasion, asesoramiento, clientes, semanales, ventas, reposicion
 
 ## Tiempo de ejecución: 
-0.06989216804504395 segundos
+1.1558854579925537 segundos
 ## Relación palabras/tiempo: 
-18786.081999256352 palabras/segundo
+532.0596394283575 palabras/segundo

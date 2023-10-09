@@ -25,7 +25,8 @@ def load_json(path):
 
 def count_words(df):
     # Count the number of words in the column PALABRAS_EMPLEO_TEXTO
-    df['NUM_WORDS'] = df['PALABRAS_EMPLEO_TEXTO'].apply(lambda x: len(x.split(" ")) - 1)
+    # df['NUM_WORDS'] = df['PALABRAS_EMPLEO_TEXTO'].apply(lambda x: len(x.split(" ")) - 1)
+    df['NUM_WORDS'] = df['PALABRAS_EMPLEO_TEXTO_NUEVAS'].apply(lambda x: len(x.split(" ")))
     return df['NUM_WORDS']
 
 
