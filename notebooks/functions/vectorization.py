@@ -1,8 +1,10 @@
 import numpy as np
-from functions.tokenizer import custom_tokenizer_category_subcategory, custom_tokenizer_palabras_empleo_texto
 import json
 import pandas as pd
+from functions.tokenizer import custom_tokenizer_category_subcategory, custom_tokenizer_palabras_empleo_texto
 from functions.vocabulary import get_vocabulary_dimension
+# from notebooks.functions.vocabulary import get_vocabulary_dimension
+# from notebooks.functions.tokenizer import custom_tokenizer_category_subcategory, custom_tokenizer_palabras_empleo_texto
 
 
 def get_vertical_index(vocabularies, column, text):

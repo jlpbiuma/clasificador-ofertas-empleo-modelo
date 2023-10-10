@@ -1,6 +1,8 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 import json
 from functions.tokenizer import *
+# from notebooks.functions.tokenizer import *
+
 
 
 def load_vocabulary(vocabulary_path):
@@ -43,6 +45,15 @@ def filter_vocabulary(vocabulary, vocabulary_delete):
     words = vocabulary_delete.keys()
     # Delete the word in vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'] if it is in words
     for word in vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS']:
-        if word in words:
+        if word.upper() in words:
             vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'].remove(word)
     return vocabulary
+
+def setup_vocabulary(vocabulary, df_train):
+    new_vocabulary = {}
+    new_vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'] = vocabulary
+    # Get all categories from unique values of CATEGORIA in df_train
+    new_vocabulary['CATEGORIA'] = df_train['CATEGORIA'].unique().tolist()
+    # Get all subcategories from unique values of SUBCATEGORIA in df_train
+    new_vocabulary['SUBCATEGORIA'] = df_train['SUBCATEGORIA'].unique().tolist()
+    return new_vocabulary

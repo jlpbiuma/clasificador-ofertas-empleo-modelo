@@ -1,19 +1,19 @@
 from tensorflow import keras
 import tensorflow as tf
 import json
-from sklearn.utils import shuffle
 from datetime import datetime
 
 
 def create_cnn(input_dim, num_classes):
     # Model Architecture
     model = keras.Sequential([
-        keras.layers.Input(shape=input_dim),
+        # keras.layers.Input(shape=(input_dim,)),
         # keras.layers.Flatten(),
+        # keras.layers.Embedding(input_dim=input_dim, output_dim=300),
         # keras.layers.Dense(2048, activation='relu'),
         # keras.layers.Dense(1024, activation='relu'),
-        keras.layers.Dense(300, activation='relu'),
-        keras.layers.Dense(120, activation='relu'),
+        keras.layers.Dense(64, activation='relu', input_dim=input_dim),
+        # keras.layers.Dense(120, activation='relu'),
         keras.layers.Dense(num_classes, activation='softmax')
     ])
     # Compile the Model
