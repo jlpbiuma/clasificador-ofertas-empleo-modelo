@@ -1,0 +1,8 @@
+grado medio -> ciclo formativo grado medio
+grado superior -> ciclo formativo grado superior
+licenciado -> licenciatura
+diplomado -> diplomatura
+
+- Una vez sacada todos los niveles mínimo quedarse solo con el ID_NIVEL más bajo
+- Añadir bachillerato a las denominaciones
+- 
