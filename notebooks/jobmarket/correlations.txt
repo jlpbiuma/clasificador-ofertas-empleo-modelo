@@ -4,7 +4,7 @@ grado medio o superior->ciclo formativo grado medio,formacion profesional grado 
 licenciado->licenciatura
 diplomado->diplomatura
 phd->doctorado
-eso->educacion secundaria obligatoria
+educacion secundaria->educacion secundaria obligatoria
 fp->formacion profesional grado medio,formacion profesional grado superior
 grau->grado
 bachelor->grado
