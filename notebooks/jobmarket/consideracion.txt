@@ -6,3 +6,5 @@ diplomado -> diplomatura
 - Una vez sacada todos los niveles mínimo quedarse solo con el ID_NIVEL más bajo
 - Añadir bachillerato a las denominaciones
 - 
+
+Sacar de infojobs por GC (Gran Canaria) en el intervalo 20 de junio
