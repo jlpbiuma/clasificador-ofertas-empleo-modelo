@@ -1,0 +1,19 @@
+fetch("https://www.jobmarketinsights.com/jmi-area/MarketOverview-graph?scopeId=792&primaryField=category&secondaryField=&period=custom&customDateFrom=2023-01-01&customDateTo=2023-01-06&periodCompare=0&sortTable=market&sortOrder=&offset=0&pageSize=25&secondaryOffset=0&category=&company=&location=&title=&jobType=&salary=&comSize=&comType=&hotVacancies=&lonelyPost=&comJobBoard=&mkt.site=1963&mkt.company=&scrollTo=&cmp.site=&time=231024185100&sitesFacetSize=8", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "es-ES,es;q=0.9",
+    "sec-ch-ua": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://www.jobmarketinsights.com/jmi-area/Overview?primaryField=category&scopeId=792&secondaryField=&period=custom&customDateFrom=2023-01-01&customDateTo=2023-01-05&periodCompare=0&sortTable=market&sortOrder=&offset=0&pageSize=25&secondaryOffset=0&category=&company=&location=&title=&jobType=&salary=&comSize=&comType=&hotVacancies=&lonelyPost=&comJobBoard=&mkt.site=1963&mkt.company=&scrollTo=&cmp.site=&time=231024184107",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
