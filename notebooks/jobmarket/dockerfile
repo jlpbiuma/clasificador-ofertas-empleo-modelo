@@ -1,0 +1,18 @@
+# Use an official MySQL runtime as a parent image
+FROM mysql:latest
+
+# Set environment variables for MySQL
+ENV MYSQL_ROOT_PASSWORD=root_password
+ENV MYSQL_DATABASE=test
+ENV MYSQL_USER=test_user
+ENV MYSQL_PASSWORD=test_password
+
+# Copy your SQL scripts into the container
+COPY ./sql/create_test_table_offers.sql /docker-entrypoint-initdb.d/
+COPY ./sql/create_test_table_postings.sql /docker-entrypoint-initdb.d/
+
+# Expose the MySQL port
+EXPOSE 3306
+
+# Define the startup command to run MySQL
+CMD ["mysqld"]

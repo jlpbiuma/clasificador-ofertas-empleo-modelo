@@ -1,0 +1,1 @@
+USE test SELECT * FROM test.postings_jobmarket_canarias_21_23;
