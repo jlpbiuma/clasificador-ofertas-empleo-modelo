@@ -1,0 +1,6872 @@
+[
+  {
+    "id": "20",
+    "nivel": "Ciencias Políticas y de la Administración",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "199",
+    "nivel": "Ciencias y Técnicas de la Navegación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2076",
+    "nivel": "Diseño en Fabricación Mecánica",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1419",
+    "nivel": "Grado en Biología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "150",
+    "nivel": "Industrial, especialidad en Química Industrial",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "404",
+    "nivel": "Informática",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "97",
+    "nivel": "Podología",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "175",
+    "nivel": "Química",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "200",
+    "nivel": "Ciencias y Técnicas Historiográficas",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2075",
+    "nivel": "Diseño Industrial (Delineación)",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1420",
+    "nivel": "Grado en Biología Ambiental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "151",
+    "nivel": "Industrial, especialidad Textil",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "405",
+    "nivel": "Madera y Mueble",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "2077",
+    "nivel": "Protocolo y relaciones institucionales",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "176",
+    "nivel": "Sanidad",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "22",
+    "nivel": "Ciencias Químicas",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "201",
+    "nivel": "Cirugía",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "420",
+    "nivel": "Edificación y Obra Civil",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1421",
+    "nivel": "Grado en Biologia Humana",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "406",
+    "nivel": "Mantenimiento de Vehículos Autopropulsados",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "152",
+    "nivel": "Naval",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "98",
+    "nivel": "Radioelectrónica Naval",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "177",
+    "nivel": "Servicios Socioculturales y a la Comunidad",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "2065",
+    "nivel": "Ciencias Religiosas",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "202",
+    "nivel": "Comercialización e Investigación de Mercados",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2070",
+    "nivel": "Educación Infantil",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1422",
+    "nivel": "Grado en Biología Sanitaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "407",
+    "nivel": "Mantenimiento y Servicios a la Producción",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "153",
+    "nivel": "Naval, especialidad en Estructuras Marinas",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "99",
+    "nivel": "Relaciones Laborales",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "178",
+    "nivel": "Textil, Confección y Piel",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "203",
+    "nivel": "Composición Arquitectónica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2107",
+    "nivel": "Educación y Control Ambiental",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1423",
+    "nivel": "Grado en Biomedicina Básica y Experimental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "154",
+    "nivel": "Naval, especialidad en Propulsión y Servicios del Buque",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "2067",
+    "nivel": "Prevención de Riesgos Profesionales",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "100",
+    "nivel": "Terapia Ocupacional",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "179",
+    "nivel": "Vidrio y Cerámica",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "204",
+    "nivel": "Comunicación Audiovisual y Publicidad",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "421",
+    "nivel": "Electricidad y Electrónica",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1424",
+    "nivel": "Grado en Bioquímica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "408",
+    "nivel": "Química",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "101",
+    "nivel": "Trabajo Social",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "23",
+    "nivel": "Ciencias y Técnicas Estadísticas",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "205",
+    "nivel": "Construcciones Arquitectónicas",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2114",
+    "nivel": "Energias Renovables",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1425",
+    "nivel": "Grado en Bioquímica y Biología Molecular",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "409",
+    "nivel": "Sanidad",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "102",
+    "nivel": "Turismo",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "125",
+    "nivel": "Técnico de Minas",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "27",
+    "nivel": "Comunicación Audiovisual",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "206",
+    "nivel": "Construcciones Navales",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "422",
+    "nivel": "Fabricación Mecánica",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1426",
+    "nivel": "Grado en Bioquímica y Ciencias Biomédicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2061",
+    "nivel": "Secretariado",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "126",
+    "nivel": "Técnico de Minas, especialidad en Explotación de Minas",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "386",
+    "nivel": "Criminología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "207",
+    "nivel": "Cristalografía y Mineralogía",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2121",
+    "nivel": "Gestión Forestal y del Medio Natural",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1427",
+    "nivel": "Grado en Biotecnología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2079",
+    "nivel": "Servicios al consumidor",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "127",
+    "nivel": "Técnico de Minas, especialidad en Instalaciones Electromecánicas Mineras",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "28",
+    "nivel": "Derecho",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "208",
+    "nivel": "Derecho Administrativo",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2103",
+    "nivel": "Grado en Ciencia Gestión e Ingeniería de Servicio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "423",
+    "nivel": "Hostelería y Turismo",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "410",
+    "nivel": "Servicios Socioculturales y a la Comunidad",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "128",
+    "nivel": "Técnico de Minas, especialidad en Mineralurgia y Metalurgia",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "209",
+    "nivel": "Derecho Civil",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "29",
+    "nivel": "Documentación",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1428",
+    "nivel": "Grado en Ciencia Política y Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "424",
+    "nivel": "Imagen Personal",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2068",
+    "nivel": "Sistemas de Regulación y Control Automáticos",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "129",
+    "nivel": "Técnico de Minas, especialidad en Recursos Energéticos, Combustibles y Explosivos",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "210",
+    "nivel": "Derecho Constitucional",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "30",
+    "nivel": "Economía",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1429",
+    "nivel": "Grado en Ciencia Política y de la Administración",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "425",
+    "nivel": "Industrias Alimentarias",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "411",
+    "nivel": "Textil, Confección y Piel",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "130",
+    "nivel": "Técnico de Minas, especialidad en Sondeos y Prospecciones Mineras",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "211",
+    "nivel": "Derecho del Trabajo y de la Seguridad Social",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1430",
+    "nivel": "Grado en Ciencia Política y Gestión Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "426",
+    "nivel": "Informática",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2060",
+    "nivel": "Transporte y Logística",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "131",
+    "nivel": "Técnico de Obras Públicas",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "212",
+    "nivel": "Derecho Eclesiástico del Estado",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "32",
+    "nivel": "Enología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1431",
+    "nivel": "Grado en Ciencia y Salud Animal",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2122",
+    "nivel": "Instalaciones Eléctricas y Automáticas",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "132",
+    "nivel": "Técnico de Obras Públicas, especialidad en Construcciones Civiles",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "412",
+    "nivel": "Vidrio y Cerámica",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "213",
+    "nivel": "Derecho Financiero y Tributario",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "387",
+    "nivel": "Estudios de Asia Oriental",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1432",
+    "nivel": "Grado en Ciencia y Tecnología de los Alimentos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2096",
+    "nivel": "Integración Social",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "133",
+    "nivel": "Técnico de Obras Públicas, especialidad en Hidrología",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "2091",
+    "nivel": "Técnico superior en Interpretación de la Lengua de Signos",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "214",
+    "nivel": "Derecho Internacional Privado",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "33",
+    "nivel": "Farmacia",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1433",
+    "nivel": "Grado en Ciencias Ambientales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "134",
+    "nivel": "Técnico de Obras Públicas, especialidad en Transportes y Servicios Urbanos",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "2092",
+    "nivel": "Técnico superior en Interpretación de la Lengua de Signos",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "215",
+    "nivel": "Derecho Internacional Público y Relaciones Internacionales",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "34",
+    "nivel": "Filología Alemana",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1434",
+    "nivel": "Grado en Ciencias Biomédicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2123",
+    "nivel": "Laboratorio de Análisis y Control de Calidad",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "374",
+    "nivel": "Técnico de Telecomunicación",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "216",
+    "nivel": "Derecho Mercantil",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "35",
+    "nivel": "Filología Árabe",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1435",
+    "nivel": "Grado en Ciencias Criminológicas y de la Seguridad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "427",
+    "nivel": "Madera y Mueble",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "135",
+    "nivel": "Técnico de Telecomunicación, especialidad en Sistemas de Telecomunicación",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "217",
+    "nivel": "Derecho Penal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "36",
+    "nivel": "Filología Catalana",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1436",
+    "nivel": "Grado en Ciencias de la Actividad Física y del Deporte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2109",
+    "nivel": "Mantenimiento Aereomecánico",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "136",
+    "nivel": "Técnico de Telecomunicación, especialidad en Sistemas Electrónicos",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "218",
+    "nivel": "Derecho Procesal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "37",
+    "nivel": "Filología Clásica",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1437",
+    "nivel": "Grado en Ciencias de la Alimentación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2124",
+    "nivel": "Mantenimiento de Aviónica",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "137",
+    "nivel": "Técnico de Telecomunicación, especialidad en Sonido e Imagen",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "219",
+    "nivel": "Derecho Romano",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "38",
+    "nivel": "Filología Eslava",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1438",
+    "nivel": "Grado en Ciencias de la Cultura y Difusión Cultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "428",
+    "nivel": "Mantenimiento de Vehículos Autopropulsados",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "138",
+    "nivel": "Técnico de Telecomunicación, especialidad en Telemática",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "220",
+    "nivel": "Dermatología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "39",
+    "nivel": "Filología Francesa",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1439",
+    "nivel": "Grado en Ciencias de la Danza",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "429",
+    "nivel": "Mantenimiento y Servicios a la Producción",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "139",
+    "nivel": "Técnico en Diseño Industrial",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "221",
+    "nivel": "Dibujo",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "40",
+    "nivel": "Filología Gallega",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1440",
+    "nivel": "Grado en Ciencias del Deporte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2125",
+    "nivel": "Mecatrónica",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "140",
+    "nivel": "Técnico en Informática de Gestión",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "222",
+    "nivel": "Didáctica de la Expresión Corporal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "41",
+    "nivel": "Filología Hebrea",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1441",
+    "nivel": "Grado en Ciencias del Mar",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2126",
+    "nivel": "Plásticos y Caucho",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "141",
+    "nivel": "Técnico en Informática de Sistemas",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "223",
+    "nivel": "Didáctica de la Expresión Musical",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "42",
+    "nivel": "Filología Hispánica",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1442",
+    "nivel": "Grado en Ciencias del Trabajo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2127",
+    "nivel": "Proyectos y Dirección de Obras de Decoración",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "142",
+    "nivel": "Técnico en Topografía",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "224",
+    "nivel": "Didáctica de la Expresión Musical, Plástica y Corporal (Desagregada)",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "43",
+    "nivel": "Filología Inglesa",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1443",
+    "nivel": "Grado en Ciencias del Trabajo y Recursos Humanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "430",
+    "nivel": "Química",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "225",
+    "nivel": "Didáctica de la Expresión Plástica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "44",
+    "nivel": "Filología Italiana",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1444",
+    "nivel": "Grado en Ciencias del Transporte y la Logística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2115",
+    "nivel": "Radioterapia",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "226",
+    "nivel": "Didáctica de la Lengua y la Literatura",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "45",
+    "nivel": "Filología Portuguesa",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1445",
+    "nivel": "Grado en Ciencias Económicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "431",
+    "nivel": "Sanidad",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "227",
+    "nivel": "Didáctica de la Matemática",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "46",
+    "nivel": "Filología Románica",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1446",
+    "nivel": "Grado en Ciencias Empresariales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2072",
+    "nivel": "Secretariado",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "228",
+    "nivel": "Didáctica de las Ciencias Experimentales",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "47",
+    "nivel": "Filología Vasca",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1447",
+    "nivel": "Grado en Ciencias Inmobiliarias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "432",
+    "nivel": "Servicios Socioculturales y a la Comunidad",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "229",
+    "nivel": "Didáctica de las Ciencias Sociales",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "48",
+    "nivel": "Filosofía",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1448",
+    "nivel": "Grado en Ciencias Juridicas de las Administraciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2128",
+    "nivel": "Sistemas Microinformáticos y Redes",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "230",
+    "nivel": "Didáctica y Organización Escolar",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "49",
+    "nivel": "Física",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1449",
+    "nivel": "Grado en Ciencias Matemáticas y de la Computación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2113",
+    "nivel": "Sonido para audiovisuales",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "231",
+    "nivel": "Ecología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "50",
+    "nivel": "Geografía",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1450",
+    "nivel": "Grado en Ciencias Médicas Básicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2110",
+    "nivel": "Sonido para Audiovisuales y Espectáculos",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "232",
+    "nivel": "Economía Aplicada",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "51",
+    "nivel": "Geología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "1451",
+    "nivel": "Grado en Ciencias Médicas Experimentales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2129",
+    "nivel": "Técnico de Laboratorio de Análisis Clínicos",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "233",
+    "nivel": "Economía Financiera y Contabilidad",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1452",
+    "nivel": "Grado en Ciencias Políticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "52",
+    "nivel": "Historia",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2099",
+    "nivel": "Técnico/a superior de artes plásticas i diseño en animación",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "234",
+    "nivel": "Economía, Sociología y Política Agraria",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1453",
+    "nivel": "Grado en Ciencias Políticas y de la Administración",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "53",
+    "nivel": "Historia del Arte",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2098",
+    "nivel": "Telecomunicaciones e informática",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "235",
+    "nivel": "Edafología y Química Agrícola",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1454",
+    "nivel": "Grado en Ciencias Políticas y de la Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "54",
+    "nivel": "Historia y Ciencias de la Música",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "433",
+    "nivel": "Textil, Confección y Piel",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "236",
+    "nivel": "Educación Física y Deportiva",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1455",
+    "nivel": "Grado en Ciencias Políticas y Gestión Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "55",
+    "nivel": "Humanidades",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2071",
+    "nivel": "Transporte y Logística",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "237",
+    "nivel": "Electromagnetismo",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1456",
+    "nivel": "Grado en Ciencias y Lenguas de la Antigüedad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "56",
+    "nivel": "Investigación y Técnicas de Mercado",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "434",
+    "nivel": "Vidrio y Cerámica",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "238",
+    "nivel": "Electrónica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1457",
+    "nivel": "Grado en Ciencias y Tecnologías de Comunicaciones",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "57",
+    "nivel": "Lingüística",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "239",
+    "nivel": "Enfermería",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1458",
+    "nivel": "Grado en Cine",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "58",
+    "nivel": "Máquinas Navales",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "240",
+    "nivel": "Escultura",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1459",
+    "nivel": "Grado en Cine y Medios Audiovisuales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2057",
+    "nivel": "Marketing",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "241",
+    "nivel": "Estadística e Investigación Operativa",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1460",
+    "nivel": "Grado en Cine y Series de Ficción",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "59",
+    "nivel": "Matemáticas",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "242",
+    "nivel": "Estética y Teoría de las Artes",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1461",
+    "nivel": "Grado en Cine y Televisión",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "60",
+    "nivel": "Medicina",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "243",
+    "nivel": "Estomatología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1462",
+    "nivel": "Grado en Comercialización y Logística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "244",
+    "nivel": "Estratigrafía",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1463",
+    "nivel": "Grado en Comercio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "62",
+    "nivel": "Náutica y Transporte Marítimo",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "245",
+    "nivel": "Estudios Arabes e Islámicos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1464",
+    "nivel": "Grado en Comercio Internacional",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "63",
+    "nivel": "Odontología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "246",
+    "nivel": "Estudios Hebreos y Arameos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1465",
+    "nivel": "Grado en Comercio y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "64",
+    "nivel": "Pedagogía",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "247",
+    "nivel": "Explotación de Minas",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1466",
+    "nivel": "Grado en Composición de Músicas Contemporáneas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "65",
+    "nivel": "Periodismo",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "248",
+    "nivel": "Expresión Gráfica Arquitectónica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1467",
+    "nivel": "Grado en Comunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "66",
+    "nivel": "Psicología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "249",
+    "nivel": "Expresión Gráfica en la Ingeniería",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1468",
+    "nivel": "Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "67",
+    "nivel": "Psicopedagogía",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "250",
+    "nivel": "Farmacia y Tecnología Farmaceútica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1469",
+    "nivel": "Grado en Comunicación Audiovisual y Multimedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "68",
+    "nivel": "Publicidad y Relaciones Públicas",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "251",
+    "nivel": "Farmacología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "-200",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "-190",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "-180",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "-27",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 27,
+    "denominacion": "Enseñanzas deportivas (regladas)"
+  },
+  {
+    "id": "-23",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 23,
+    "denominacion": "Enseñanzas artísticas (regladas)"
+  },
+  {
+    "id": "-13",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "-12",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "-11",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "-10",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "-3",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 35,
+    "denominacion": "Ciclo Formativo Grado Medio"
+  },
+  {
+    "id": "-2",
+    "nivel": "(Seleccionar)",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "155",
+    "nivel": "Actividades Agrarias",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "391",
+    "nivel": "Actividades Agrarias",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "413",
+    "nivel": "Actividades Agrarias",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2",
+    "nivel": "Administración y Dirección de Empresas",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2131",
+    "nivel": "Administrativo",
+    "id_nivel": 35,
+    "denominacion": "Ciclo Formativo Grado Medio"
+  },
+  {
+    "id": "104",
+    "nivel": "Aeronáutico",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "120",
+    "nivel": "Aeronáutico",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "77",
+    "nivel": "Biblioteconomía y Documentación",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "378",
+    "nivel": "Enseñanzas de Arte Dramático",
+    "id_nivel": 23,
+    "denominacion": "Enseñanzas artísticas (regladas)"
+  },
+  {
+    "id": "383",
+    "nivel": "Enseñanzas de Atletismo",
+    "id_nivel": 27,
+    "denominacion": "Enseñanzas deportivas (regladas)"
+  },
+  {
+    "id": "1400",
+    "nivel": "Grado en Administración de Empresas y Gestión de la Innovación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "0",
+    "nivel": "No requerido",
+    "id_nivel": 20,
+    "denominacion": "Educación Secundaria Obligatoria"
+  },
+  {
+    "id": "181",
+    "nivel": "Álgebra",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "158",
+    "nivel": "Actividades Físicas y Deportivas",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "394",
+    "nivel": "Actividades Físicas y Deportivas",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "416",
+    "nivel": "Actividades Físicas y Deportivas",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "388",
+    "nivel": "Aeronáutico, especialidad en Aeromotores",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "105",
+    "nivel": "Agrónomo",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "3",
+    "nivel": "Antropología Social y Cultural",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "182",
+    "nivel": "Análisis Geográfico Regional",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2130",
+    "nivel": "Carrocería",
+    "id_nivel": 35,
+    "denominacion": "Ciclo Formativo Grado Medio"
+  },
+  {
+    "id": "78",
+    "nivel": "Ciencias Empresariales",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "379",
+    "nivel": "Enseñanzas de Artes Plásticas y Diseño",
+    "id_nivel": 23,
+    "denominacion": "Enseñanzas artísticas (regladas)"
+  },
+  {
+    "id": "384",
+    "nivel": "Enseñanzas de Balonmano",
+    "id_nivel": 27,
+    "denominacion": "Enseñanzas deportivas (regladas)"
+  },
+  {
+    "id": "1401",
+    "nivel": "Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "156",
+    "nivel": "Actividades Marítimo-Pesqueras",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "392",
+    "nivel": "Actividades Marítimo-Pesqueras",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "414",
+    "nivel": "Actividades Marítimo-Pesqueras",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "370",
+    "nivel": "Aeronáutico, especialidad en Aeronavegación",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "183",
+    "nivel": "Análisis Matemático",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1",
+    "nivel": "Arquitecto",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "4",
+    "nivel": "Bellas Artes",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "79",
+    "nivel": "Educación Social",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "2112",
+    "nivel": "Emergencias y Protección Civil",
+    "id_nivel": 35,
+    "denominacion": "Ciclo Formativo Grado Medio"
+  },
+  {
+    "id": "377",
+    "nivel": "Enseñanzas de Danza",
+    "id_nivel": 23,
+    "denominacion": "Enseñanzas artísticas (regladas)"
+  },
+  {
+    "id": "380",
+    "nivel": "Enseñanzas de Esquí",
+    "id_nivel": 27,
+    "denominacion": "Enseñanzas deportivas (regladas)"
+  },
+  {
+    "id": "1402",
+    "nivel": "Grado en Análisis Económico",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "157",
+    "nivel": "Administración",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "393",
+    "nivel": "Administración",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "415",
+    "nivel": "Administración",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "371",
+    "nivel": "Aeronáutico, especialidad en Aeronaves",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "184",
+    "nivel": "Anatomía Patológica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "5",
+    "nivel": "Biología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "80",
+    "nivel": "Enfermería",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "381",
+    "nivel": "Enseñanzas de Fútbol",
+    "id_nivel": 27,
+    "denominacion": "Enseñanzas deportivas (regladas)"
+  },
+  {
+    "id": "376",
+    "nivel": "Enseñanzas de Música",
+    "id_nivel": 23,
+    "denominacion": "Enseñanzas artísticas (regladas)"
+  },
+  {
+    "id": "2132",
+    "nivel": "Equipos Electrónicos de Consumo",
+    "id_nivel": 35,
+    "denominacion": "Ciclo Formativo Grado Medio"
+  },
+  {
+    "id": "369",
+    "nivel": "Geólogo",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "1403",
+    "nivel": "Grado en Antropología Social",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2117",
+    "nivel": "Administración de Sistemas Informáticos en Red",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2062",
+    "nivel": "Administración y Finanzas",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "372",
+    "nivel": "Aeronáutico, especialidad en Aeropuertos",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "185",
+    "nivel": "Anatomía y Anatomía Patológica Comparadas",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "159",
+    "nivel": "Artes Gráficas",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "6",
+    "nivel": "Bioquímica",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "382",
+    "nivel": "Enseñanzas de Montaña",
+    "id_nivel": 27,
+    "denominacion": "Enseñanzas deportivas (regladas)"
+  },
+  {
+    "id": "81",
+    "nivel": "Estadística",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "1404",
+    "nivel": "Grado en Antropología Social y Cultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "116",
+    "nivel": "Industrial",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "2111",
+    "nivel": "Instalaciones de Telecomunicaciones",
+    "id_nivel": 35,
+    "denominacion": "Ciclo Formativo Grado Medio"
+  },
+  {
+    "id": "2073",
+    "nivel": "Administración y Finanzas",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "373",
+    "nivel": "Aeronáutico, especialidad en Equipos y Materiales Aeroespaciales",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "186",
+    "nivel": "Anatomía y Embriología Humana",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "395",
+    "nivel": "Artes Gráficas",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "385",
+    "nivel": "Biotecnología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "161",
+    "nivel": "Comercio y Marketing",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "82",
+    "nivel": "Fisioterapia",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "1405",
+    "nivel": "Grado en Arqueología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "389",
+    "nivel": "Agrícola",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "187",
+    "nivel": "Antropología Física",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "417",
+    "nivel": "Artes Gráficas",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "7",
+    "nivel": "Ciencia y Tecnología de los Alimentos",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2063",
+    "nivel": "Comercio Internacional",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "162",
+    "nivel": "Comunicación, Imagen y Sonido",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "83",
+    "nivel": "Gestión y Administración Pública",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "1406",
+    "nivel": "Grado en Arquitectura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "106",
+    "nivel": "Ingeniero de Caminos, Canales y Puertos",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "121",
+    "nivel": "Agrícola, especialidad en Explotaciones Agropecuarias",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "188",
+    "nivel": "Antropología Social",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2118",
+    "nivel": "Artes Plásticas y Diseño en Gráfica Interactiva",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "8",
+    "nivel": "Ciencias Actuariales y Financieras",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "396",
+    "nivel": "Comercio y Marketing",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "164",
+    "nivel": "Edificación y Obra Civil",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "1407",
+    "nivel": "Grado en Arquitectura Naval",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "107",
+    "nivel": "Ingeniero de Materiales",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "84",
+    "nivel": "Logopedia",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "122",
+    "nivel": "Agrícola, especialidad en Hortofruticultura y Jardinería",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "189",
+    "nivel": "Arqueología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2119",
+    "nivel": "Artes Plásticas y Diseño en Proyectos y Dirección de Obras de Decoración",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "9",
+    "nivel": "Ciencias Ambientales",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "397",
+    "nivel": "Comunicación, Imagen y Sonido",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "165",
+    "nivel": "Electricidad y Electrónica",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "1408",
+    "nivel": "Grado en Arquitectura Naval e Ingeniería de Sistemas Marinos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "108",
+    "nivel": "Ingeniero de Minas",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "85",
+    "nivel": "Maestro: Especialidad de Audición y Lenguaje",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "123",
+    "nivel": "Agrícola, especialidad en Industrias Agrarias y Alimentarias",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "190",
+    "nivel": "Arquitectura y Tecnología de Computadores",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2116",
+    "nivel": "Audioprotesis (Audiología Protésica)",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "10",
+    "nivel": "Ciencias de la Actividad Física y del Deporte",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "398",
+    "nivel": "Edificación y Obra Civil",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "2101",
+    "nivel": "Equipos e Instalaciones Electrotécnicas",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "1409",
+    "nivel": "Grado en Arquitectura Naval e Ingeniería Marítima",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "109",
+    "nivel": "Ingeniero de Montes",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "86",
+    "nivel": "Maestro: Especialidad de Educación Especial",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "124",
+    "nivel": "Agrícola, especialidad en Mecanización y Construcciones Rurales",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "191",
+    "nivel": "Astronomía y Astrofísica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2120",
+    "nivel": "Automatización y Robótica Industrial",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2066",
+    "nivel": "Educación Infantil",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "166",
+    "nivel": "Fabricación Mecánica",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "1410",
+    "nivel": "Grado en Arte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "390",
+    "nivel": "Ingeniero de Sistemas de Defensa",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "87",
+    "nivel": "Maestro: Especialidad de Educación Física",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "75",
+    "nivel": "Arquitecto Técnico",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "2094",
+    "nivel": "Automoción",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "192",
+    "nivel": "Biblioteconomía y Documentación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "12",
+    "nivel": "Ciencias del Mar",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2064",
+    "nivel": "Eficiencia Energética y Energía Solar Térmica",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "1411",
+    "nivel": "Grado en Arte Electrónico y Digital",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "167",
+    "nivel": "Hostelería y Turismo",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "110",
+    "nivel": "Ingeniero de Telecomunicación",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "88",
+    "nivel": "Maestro: Especialidad de Educación Infantil",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "193",
+    "nivel": "Biología Celular",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "13",
+    "nivel": "Ciencias del Trabajo",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2074",
+    "nivel": "Comercio Internacional",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "399",
+    "nivel": "Electricidad y Electrónica",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "143",
+    "nivel": "Forestal",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "1412",
+    "nivel": "Grado en Artes Escénicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "168",
+    "nivel": "Imagen Personal",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "111",
+    "nivel": "Ingeniero en Automática y Electrónica Industrial",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "89",
+    "nivel": "Maestro: Especialidad de Educación Musical",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "2105",
+    "nivel": "Biomedicina",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "418",
+    "nivel": "Comercio y Marketing",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2078",
+    "nivel": "Energía y agua",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "144",
+    "nivel": "Forestal, especialidad en Explotaciones Forestales",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "1413",
+    "nivel": "Grado en Artes Escénicas e Interpretación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "169",
+    "nivel": "Industrias Alimentarias",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "112",
+    "nivel": "Ingeniero en Electrónica",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "90",
+    "nivel": "Maestro: Especialidad de Educación Primaria",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "194",
+    "nivel": "Bioquímica y Biología Molecular",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "419",
+    "nivel": "Comunicación, Imagen y Sonido",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "2059",
+    "nivel": "Especialidad Industrial",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "145",
+    "nivel": "Forestal, especialidad en Industrias Forestales",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "1414",
+    "nivel": "Grado en Artes Escénicas y Mediáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "170",
+    "nivel": "Informática",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "113",
+    "nivel": "Ingeniero en Geodesia y Cartografía",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "91",
+    "nivel": "Maestro: Especialidad de Lengua Extranjera",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "195",
+    "nivel": "Botánica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2108",
+    "nivel": "Coordinación de Emergencias y Protección Civil",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "400",
+    "nivel": "Fabricación Mecánica",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "1415",
+    "nivel": "Grado en Artes Visuales y Danza",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "146",
+    "nivel": "Industrial",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "114",
+    "nivel": "Ingeniero en Informática",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "2102",
+    "nivel": "Instalaciones Frigoríficas y de Climatización",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "93",
+    "nivel": "Máquinas Navales",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "196",
+    "nivel": "Ciencia de la Computación e Inteligencia Artificial",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2097",
+    "nivel": "Desarrollo Aplicaciones Web",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1416",
+    "nivel": "Grado en Artes y Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "401",
+    "nivel": "Hostelería y Turismo",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "147",
+    "nivel": "Industrial, especialidad en Electricidad",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "115",
+    "nivel": "Ingeniero en Organización Industrial",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "171",
+    "nivel": "Madera y Mueble",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "94",
+    "nivel": "Navegación Marítima",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "197",
+    "nivel": "Ciencia de los Materiales e Ingeniería Metalúrgica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2106",
+    "nivel": "Desarrollo de Aplicaciones Multiplataforma",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1417",
+    "nivel": "Grado en Asistencia en Dirección",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "402",
+    "nivel": "Imagen Personal",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "148",
+    "nivel": "Industrial, especialidad en Electrónica Industrial",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "172",
+    "nivel": "Mantenimiento de Vehículos Autopropulsados",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "118",
+    "nivel": "Naval y Oceánico",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "95",
+    "nivel": "Nutrición Humana y Dietética",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "198",
+    "nivel": "Ciencia Política y de la Administración",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2095",
+    "nivel": "Dietética y Nutrición",
+    "id_nivel": 60,
+    "denominacion": "Ciclo Formativo Grado Superior"
+  },
+  {
+    "id": "1418",
+    "nivel": "Grado en Bellas Artes",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "149",
+    "nivel": "Industrial, especialidad en Mecánica",
+    "id_nivel": 120,
+    "denominacion": "Ingeniería Técnica"
+  },
+  {
+    "id": "403",
+    "nivel": "Industrias Alimentarias",
+    "id_nivel": 55,
+    "denominacion": "Formación Profesional Grado Superior"
+  },
+  {
+    "id": "173",
+    "nivel": "Mantenimiento y Servicios a la Producción",
+    "id_nivel": 30,
+    "denominacion": "Formación Profesional Grado Medio"
+  },
+  {
+    "id": "119",
+    "nivel": "Químico",
+    "id_nivel": 130,
+    "denominacion": "Ingeniería Superior"
+  },
+  {
+    "id": "96",
+    "nivel": "Óptica y Optometría",
+    "id_nivel": 110,
+    "denominacion": "Diplomatura"
+  },
+  {
+    "id": "310",
+    "nivel": "Lenguajes y Sistemas Informáticos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1532",
+    "nivel": "Grado en Estudios de Inglés y de Clásicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "311",
+    "nivel": "Lingüística General",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1533",
+    "nivel": "Grado en Estudios de Inglés y Español",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "312",
+    "nivel": "Lingüística Indoeuropea",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1534",
+    "nivel": "Grado en Estudios de Inglés y Francés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "313",
+    "nivel": "Literatura Española",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1535",
+    "nivel": "Grado en Estudios en Arquitectura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "314",
+    "nivel": "Lógica y Filosofía de la Ciencia",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1536",
+    "nivel": "Grado en Estudios Franceses",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "315",
+    "nivel": "Máquinas y Motores Térmicos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1537",
+    "nivel": "Grado en Estudios Francófonos Aplicados",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "316",
+    "nivel": "Matemática Aplicada",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1538",
+    "nivel": "Grado en Estudios Hebreos y Arameos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "317",
+    "nivel": "Mecánica de Fluídos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1539",
+    "nivel": "Grado en Estudios Hispánicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "318",
+    "nivel": "Mecánica de Medios Contínuos y Teoría de Estructuras",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1540",
+    "nivel": "Grado en Estudios Hispánicos, Lengua Española y sus Literaturas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "319",
+    "nivel": "Medicina",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1541",
+    "nivel": "Grado en Estudios Hispánicos: Lengua y Literatura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "320",
+    "nivel": "Medicina Legal y Forense",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1542",
+    "nivel": "Grado en Estudios Ingleses",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "321",
+    "nivel": "Medicina Preventiva y Salud Pública",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1543",
+    "nivel": "Grado en Estudios Ingleses. Lengua, Literatura y Cultura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "322",
+    "nivel": "Medicina y Cirugía Animal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1544",
+    "nivel": "Grado en Estudios Internacionales de Economía y Empresa / International Business Economics",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "323",
+    "nivel": "Metodología de las Ciencias del Comportamiento",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1545",
+    "nivel": "Grado en Estudios Italianos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "324",
+    "nivel": "Métodos de Investigación y Diagnóstico en Educación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1546",
+    "nivel": "Grado en Estudios Literarios",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "325",
+    "nivel": "Microbiología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1547",
+    "nivel": "Grado en Estudios Portugueses y Brasileños",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "326",
+    "nivel": "Música",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1548",
+    "nivel": "Grado en Estudios Semíticos e Islámicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "327",
+    "nivel": "Nutrición y Bromatología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1549",
+    "nivel": "Grado en Estudios Vascos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "328",
+    "nivel": "Obstetricia y Ginecología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1550",
+    "nivel": "Grado en Farmacia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "329",
+    "nivel": "Oftalmología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1551",
+    "nivel": "Grado en Filología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "330",
+    "nivel": "Optica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1552",
+    "nivel": "Grado en Filología Bíblica Trilingüe",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "331",
+    "nivel": "Organización de Empresas",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1553",
+    "nivel": "Grado en Filología Catalana",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "332",
+    "nivel": "Otorrinolaringología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1554",
+    "nivel": "Grado en Filología Clásica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "333",
+    "nivel": "Paleontología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1555",
+    "nivel": "Grado en Filología Hispánica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "334",
+    "nivel": "Parasitología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1556",
+    "nivel": "Grado en Filología Moderna. Inglés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "335",
+    "nivel": "Pediatría",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1557",
+    "nivel": "Grado en Filología Románica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "336",
+    "nivel": "Periodismo",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1558",
+    "nivel": "Grado en Filología Vasca / Euskal Filología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "337",
+    "nivel": "Personalidad, Evaluación y Tratamiento Psicológico",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1559",
+    "nivel": "Grado en Filosofía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "338",
+    "nivel": "Petrología y Geoquímica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1560",
+    "nivel": "Grado en Finanzas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "339",
+    "nivel": "Pintura",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1563",
+    "nivel": "Grado en Finanzas, Banca y Seguros",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "340",
+    "nivel": "Prehistoria",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1561",
+    "nivel": "Grado en Finanzas y Contabilidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "341",
+    "nivel": "Producción Animal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1562",
+    "nivel": "Grado en Finanzas y Seguros",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "342",
+    "nivel": "Producción Vegetal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1564",
+    "nivel": "Grado en Fiscalidad y Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "343",
+    "nivel": "Prospección e Investigación Minera",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1565",
+    "nivel": "Grado en Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "344",
+    "nivel": "Proyectos Arquitectónicos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1566",
+    "nivel": "Grado en Fisioterapia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "345",
+    "nivel": "Proyectos de Ingeniería",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1567",
+    "nivel": "Grado en Fotografía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "346",
+    "nivel": "Psicobiología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1568",
+    "nivel": "Grado en Fotografía y Creación Digital",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "347",
+    "nivel": "Psicología Básica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1569",
+    "nivel": "Grado en Fundamentos de la Arquitectura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "348",
+    "nivel": "Psicología Evolutiva y de la Educación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1570",
+    "nivel": "Grado en Gallego y Portugués: Estudios Lingüísticos y Literarios",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "349",
+    "nivel": "Psicología Social",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1571",
+    "nivel": "Grado en Gastronomía y Artes Culinarias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "350",
+    "nivel": "Psiquiatría",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1572",
+    "nivel": "Grado en Genética",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "351",
+    "nivel": "Química Analítica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1573",
+    "nivel": "Grado en Geografía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "352",
+    "nivel": "Química Física",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1574",
+    "nivel": "Grado en Geografía e Historia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "353",
+    "nivel": "Química Inorgánica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1578",
+    "nivel": "Grado en Geografía, Ordenación del Territorio y Gestión del Medio Ambiente",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "354",
+    "nivel": "Química Orgánica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1575",
+    "nivel": "Grado en Geografía y Gestión del Territorio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "355",
+    "nivel": "Radiología y Medicina Física",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1576",
+    "nivel": "Grado en Geografía y Medio Ambiente",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "356",
+    "nivel": "Sanidad Animal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1577",
+    "nivel": "Grado en Geografía y Ordenación del Territorio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "357",
+    "nivel": "Sociología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1579",
+    "nivel": "Grado en Geología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "358",
+    "nivel": "Tecnología de Alimentos",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1580",
+    "nivel": "Grado en Gestión Aeronáutica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "359",
+    "nivel": "Tecnología Electrónica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1581",
+    "nivel": "Grado en Gestión Cultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "360",
+    "nivel": "Tecnologías del Medio Ambiente",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1582",
+    "nivel": "Grado en Gestión de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "361",
+    "nivel": "Teoría de la Literatura y Literatura Comparada",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1583",
+    "nivel": "Grado en Gestión de Negocios",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "362",
+    "nivel": "Teoría de la Señal y Comunicaciones",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1584",
+    "nivel": "Grado en Gestión de Pequeñas y Medianas Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "363",
+    "nivel": "Teoría e Historia de la Educación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1585",
+    "nivel": "Grado en Gestión Deportiva",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "364",
+    "nivel": "Toxicología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1586",
+    "nivel": "Grado en Gestión Económico-Financiera",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "365",
+    "nivel": "Trabajo Social y Servicios Sociales",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1587",
+    "nivel": "Grado en Gestión Hotelera y Turística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "366",
+    "nivel": "Traducción e Interpretación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1588",
+    "nivel": "Grado en Gestión Informática Empresarial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "367",
+    "nivel": "Urbanística y Ordenación del Territorio",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1589",
+    "nivel": "Grado en Gestión Turística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "368",
+    "nivel": "Zoología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1590",
+    "nivel": "Grado en Gestión y Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1591",
+    "nivel": "Grado en Gestión y Marketing Empresarial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1592",
+    "nivel": "Grado en Historia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1593",
+    "nivel": "Grado en Historia del Arte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1594",
+    "nivel": "Grado en Historia del Arte y Patrimonio Histórico-Artístico",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1595",
+    "nivel": "Grado en Historia y Ciencias de la Música",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1596",
+    "nivel": "Grado en Historia y Patrimonio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1597",
+    "nivel": "Grado en Historia y Patrimonio Histórico",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1598",
+    "nivel": "Grado en Humanidades",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1603",
+    "nivel": "Grado en Humanidades: Estudios Interculturales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1604",
+    "nivel": "Grado en Humanidades: Historia Cultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1599",
+    "nivel": "Grado en Humanidades y Antropología Social",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1600",
+    "nivel": "Grado en Humanidades y Estudios Culturales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1684",
+    "nivel": "Grado en Ingeniería del Medio Natural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1685",
+    "nivel": "Grado en Ingeniería del Software",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1686",
+    "nivel": "Grado en Ingeniería Eléctrica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1687",
+    "nivel": "Grado en Ingeniería Electromecánica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1688",
+    "nivel": "Grado en Ingenieria Electromecánica Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1689",
+    "nivel": "Grado en Ingeniería Electrónica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1690",
+    "nivel": "Grado en Ingeniería Electrónica de Comunicaciones",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1691",
+    "nivel": "Grado en Ingeniería Electrónica de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1692",
+    "nivel": "Grado en Ingeniería Electrónica Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1693",
+    "nivel": "Grado en Ingeniería Electrónica Industrial y Automática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1694",
+    "nivel": "Grado en Ingeniería Electrónica, Robótica y Mecatrónica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1695",
+    "nivel": "Grado en Ingeniería en Audiovisual y de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1696",
+    "nivel": "Grado en Ingeniería en Desarrollo de Contenidos Digitales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1697",
+    "nivel": "Grado en Ingeniería en Diseño Industrial y Desarrollo de Producto",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1698",
+    "nivel": "Grado en Ingeniería en Diseño Mecánico",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1699",
+    "nivel": "Grado en Ingeniería en Propulsión y Servicios del Buque",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1700",
+    "nivel": "Grado en Ingeniería en Sistemas Audiovisuales y Multimedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1701",
+    "nivel": "Grado en Ingeniería en Sistemas y Tecnología Naval",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1702",
+    "nivel": "Grado en Ingeniería en Sonido e Imagen en Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1703",
+    "nivel": "Grado en Ingeniería en Tecnología Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1704",
+    "nivel": "Grado en Ingeniería en Tecnología Naval",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1705",
+    "nivel": "Grado en Ingeniería en Tecnologías Aeroespaciales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1706",
+    "nivel": "Grado en Ingeniería en Tecnologías de la Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1707",
+    "nivel": "Grado en Ingeniería en Vehículos Aeroespaciales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1708",
+    "nivel": "Grado en Ingeniería Energética",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1709",
+    "nivel": "Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1710",
+    "nivel": "Grado en Ingeniería Forestal",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1713",
+    "nivel": "Grado en Ingeniería Forestal: Industrias Forestales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1711",
+    "nivel": "Grado en Ingeniería Forestal y del Medio Natural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1712",
+    "nivel": "Grado en Ingeniería Forestal y del Medio Natural-Explotaciones Forestales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1714",
+    "nivel": "Grado en Ingeniería Geológica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1715",
+    "nivel": "Grado en Ingeniería Geomática y Topografía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1716",
+    "nivel": "Grado en Ingeniería Hortofrutícola y Jardinería",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1717",
+    "nivel": "Grado en Ingeniería Infomática en Sistemas de Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1718",
+    "nivel": "Grado en Ingeniería Informática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1719",
+    "nivel": "Grado en Ingeniería Informática - Tecnologías Informáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1720",
+    "nivel": "Grado en Ingeniería Informática de Gestión y Sistemas de Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1721",
+    "nivel": "Grado en Ingeniería Informática de Servicios y Aplicaciones",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1722",
+    "nivel": "Grado en Ingeniería Informática de Sistemas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1723",
+    "nivel": "Grado en Ingeniería Informática del Software",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1724",
+    "nivel": "Grado en Ingeniería Informática en Sistemas de Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1725",
+    "nivel": "Grado en Ingeniería Informática en Sistemas y Tecnologías de la Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1726",
+    "nivel": "Grado en Ingeniería Informática en Tecnologías de la Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1727",
+    "nivel": "Grado en Ingeniería Marina",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1728",
+    "nivel": "Grado en Ingeniería Marina por la Universidad de Cádiz",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1729",
+    "nivel": "Grado en Ingeniería Marítima",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1730",
+    "nivel": "Grado en Ingeniería Matemática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1731",
+    "nivel": "Grado en Ingeniería Mecánica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1732",
+    "nivel": "Grado en Ingeniería Mecatrónica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1733",
+    "nivel": "Grado en Ingeniería Minera",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1734",
+    "nivel": "Grado en Ingeniería Multimedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1735",
+    "nivel": "Grado en Ingeniería Náutica y Transporte Marítimo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1736",
+    "nivel": "Grado en Ingeniería Química",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1737",
+    "nivel": "Grado en Ingeniería Química Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1738",
+    "nivel": "Grado en Ingeniería Radioelectrónica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1739",
+    "nivel": "Grado en Ingeniería Radioelectrónica Naval",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1740",
+    "nivel": "Grado en Ingeniería Técnica de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1741",
+    "nivel": "Grado en Ingeniería Telemática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1742",
+    "nivel": "Grado en Ingeniería y Ciencia Agronómica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1743",
+    "nivel": "Grado en Inglés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1744",
+    "nivel": "Grado en Inglés: Estudios Lingüísticos y Literarios",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1745",
+    "nivel": "Grado en Lengua Española y Literaturas Hispánicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1746",
+    "nivel": "Grado en Lengua Española y su Literatura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1747",
+    "nivel": "Grado en Lengua Española y sus Literaturas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1748",
+    "nivel": "Grado en Lengua y Literatura Alemanas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1749",
+    "nivel": "Grado en Lengua y Literatura Catalanas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1750",
+    "nivel": "Grado en Lengua y Literatura Españolas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1751",
+    "nivel": "Grado en Lengua y Literatura Gallegas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1752",
+    "nivel": "Grado en Lengua y Literatura Hispánica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1753",
+    "nivel": "Grado en Lengua y Literatura Hispánicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1754",
+    "nivel": "Grado en Lengua y Literatura Inglesas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1755",
+    "nivel": "Grado en Lengua y Literatura Modernas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1756",
+    "nivel": "Grado en Lenguas Aplicadas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1757",
+    "nivel": "Grado en Lenguas Aplicadas a la Comunicación y al Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1758",
+    "nivel": "Grado en Lenguas Aplicadas y Comunicación Intercultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1759",
+    "nivel": "Grado en Lenguas Extranjeras",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1769",
+    "nivel": "Grado en Lenguas, Literaturas y Culturas Románicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1760",
+    "nivel": "Grado en Lenguas Modernas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1764",
+    "nivel": "Grado en Lenguas Modernas, Cultura y Comunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1761",
+    "nivel": "Grado en Lenguas Modernas y Gestión",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1762",
+    "nivel": "Grado en Lenguas Modernas y su Literatura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1601",
+    "nivel": "Grado en Humanidades y Estudios Sociales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1602",
+    "nivel": "Grado en Humanidades y Patrimonio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1605",
+    "nivel": "Grado en Igualdad de Género",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1606",
+    "nivel": "Grado en Información y Documentación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1607",
+    "nivel": "Grado en Informática y Servicios",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1608",
+    "nivel": "Grado en Ingeniería Aeroespacial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1609",
+    "nivel": "Grado en Ingeniería Aeroespacial en Aeronavegación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1610",
+    "nivel": "Grado en Ingeniería Aeroespacial en Aeronaves",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1611",
+    "nivel": "Grado en Ingeniería Agraria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1612",
+    "nivel": "Grado en Ingeniería Agraria y Alimentaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1613",
+    "nivel": "Grado en Ingeniería Agrícola",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1614",
+    "nivel": "Grado en Ingeniería Agrícola y del Medio Rural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1615",
+    "nivel": "Grado en Ingeniería Agroalimentaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1616",
+    "nivel": "Grado en Ingeniería Agroalimentaria y Agroambiental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1617",
+    "nivel": "Grado en Ingeniería Agroalimentaria y del Medio Rural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1618",
+    "nivel": "Grado en Ingeniería Agroambiental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1619",
+    "nivel": "Grado en Ingeniería Agroambiental y del Paisaje",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1620",
+    "nivel": "Grado en Ingeniería Agropecuaria y del Medio Rural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1621",
+    "nivel": "Grado en Ingeniería Alimentaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1622",
+    "nivel": "Grado en Ingeniería Ambiental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1623",
+    "nivel": "Grado en Ingeniería Biomédica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1624",
+    "nivel": "Grado en Ingeniería Civil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1625",
+    "nivel": "Grado en Ingeniería Civil - Construcciones Civiles",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1626",
+    "nivel": "Grado en Ingeniería Civil - Hidrología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1627",
+    "nivel": "Grado en Ingeniería Civil -Transportes y Servicios Urbanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1628",
+    "nivel": "Grado en Ingeniería Civil y Territorial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1629",
+    "nivel": "Grado en Ingeniería de Aeronavegación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1630",
+    "nivel": "Grado en Ingeniería de Aeropuertos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1631",
+    "nivel": "Grado en Ingeniería de Computadores",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1632",
+    "nivel": "Grado en Ingeniería de Diseño Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1633",
+    "nivel": "Grado en Ingeniería de Diseño Industrial y Desarrollo del Producto",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1634",
+    "nivel": "Grado en Ingeniería de Edificación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1635",
+    "nivel": "Grado en Ingeniería de Energías Renovables",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1636",
+    "nivel": "Grado en Ingeniería de la Construcción",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1637",
+    "nivel": "Grado en Ingeniería de la Energía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1638",
+    "nivel": "Grado en Ingeniería de la Hortofruticultura y Jardinería",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1639",
+    "nivel": "Grado en Ingeniería de la Salud",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1640",
+    "nivel": "Grado en Ingeniería de la Seguridad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1641",
+    "nivel": "Grado en Ingeniería de la Tecnología Minera",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1642",
+    "nivel": "Grado en Ingeniería de las Explotaciones Agropecuarias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1643",
+    "nivel": "Grado en Ingeniería de las Industrias Agrarias y Alimentarias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1644",
+    "nivel": "Grado en Ingeniería de las Industrias Agroalimentarias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1645",
+    "nivel": "Grado en Ingeniería de los Materiales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1646",
+    "nivel": "Grado en Ingeniería de los Recursos Energéticos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1647",
+    "nivel": "Grado en Ingeniería de los Recursos Energéticos, Combustibles y Explosivos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1648",
+    "nivel": "Grado en Ingeniería de los Recursos Minerales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1649",
+    "nivel": "Grado en Ingeniería de los Recursos Mineros",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1650",
+    "nivel": "Grado en Ingeniería de Materiales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1651",
+    "nivel": "Grado en Ingeniería de Minas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1652",
+    "nivel": "Grado en Ingeniería de Obras Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1653",
+    "nivel": "Grado en Ingeniería de Obras Públicas en Construcciones Civiles",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1654",
+    "nivel": "Grado en Ingeniería de Obras Públicas en Hidrología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1655",
+    "nivel": "Grado en Ingeniería de Obras Públicas en Transportes y Servicios Urbanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1656",
+    "nivel": "Grado en Ingeniería de Organización",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1657",
+    "nivel": "Grado en Ingeniería de Organización de las Tecnologías de la Información y de la Comunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1658",
+    "nivel": "Grado en Ingeniería de Organización Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1659",
+    "nivel": "Grado en Ingeniería de Procesos Químicos Industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1660",
+    "nivel": "Grado en Ingeniería de Recursos Energéticos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1661",
+    "nivel": "Grado en Ingeniería de Recursos Energéticos y Mineros",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1662",
+    "nivel": "Grado en Ingeniería de Recursos Minerales y Energía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1663",
+    "nivel": "Grado en Ingeniería de Recursos Mineros y Energéticos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1665",
+    "nivel": "Grado en Ingeniería de Sistemas Audiovisuales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1666",
+    "nivel": "Grado en Ingeniería de Sistemas Audiovisuales de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1667",
+    "nivel": "Grado en Ingeniería de Sistemas Biológicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1668",
+    "nivel": "Grado en Ingeniería de Sistemas de Comunicaciones",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1669",
+    "nivel": "Grado en Ingeniería de Sistemas de Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1670",
+    "nivel": "Grado en Ingeniería de Sistemas de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1671",
+    "nivel": "Grado en Ingeniería de Sistemas de Telecomunicación, Sonido e Imagen",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1672",
+    "nivel": "Grado en Ingeniería de Sistemas de Telecomunicaciones",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1673",
+    "nivel": "Grado en Ingeniería de Sistemas Electrónicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1674",
+    "nivel": "Grado en Ingeniería de Sistemas TIC",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1675",
+    "nivel": "Grado en Ingeniería de Sonido e Imagen",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1676",
+    "nivel": "Grado en Ingeniería de Tecnología de Minas y Energía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1677",
+    "nivel": "Grado en Ingeniería de Tecnología y Diseño Textil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1678",
+    "nivel": "Grado en Ingeniería de Tecnologías de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1679",
+    "nivel": "Grado en Ingeniería de Tecnologías Industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1680",
+    "nivel": "Grado en Ingeniería de Tecnologías Mineras",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1681",
+    "nivel": "Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1682",
+    "nivel": "Grado en Ingeniería de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1683",
+    "nivel": "Grado en Ingeniería del Automóvil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1470",
+    "nivel": "Grado en Comunicación Cultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "69",
+    "nivel": "Química",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "252",
+    "nivel": "Filología Alemana",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1471",
+    "nivel": "Grado en Comunicación e Industrias Culturales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "70",
+    "nivel": "Radioelectrónica Naval",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "253",
+    "nivel": "Filología Catalana",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1472",
+    "nivel": "Grado en Comunicación Publicitaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "254",
+    "nivel": "Filología Eslava",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1473",
+    "nivel": "Grado en Comunicación y Periodismo Audiovisuales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "71",
+    "nivel": "Sociología",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "255",
+    "nivel": "Filología Francesa",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1474",
+    "nivel": "Grado en Comunicación y Relaciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "72",
+    "nivel": "Teoría de la Literatura y Literatura Comparada",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "256",
+    "nivel": "Filología Gallega y Portuguesa",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1475",
+    "nivel": "Grado en Conservación y Restauración de Bienes Culturales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "73",
+    "nivel": "Traducción e Interpretación",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "257",
+    "nivel": "Filología Griega",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1476",
+    "nivel": "Grado en Conservación y Restauración del Patrimonio Cultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "74",
+    "nivel": "Veterinaria",
+    "id_nivel": 140,
+    "denominacion": "Licenciatura"
+  },
+  {
+    "id": "2058",
+    "nivel": "Filología Hispánica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1477",
+    "nivel": "Grado en Consultoría y Gestión de la Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "258",
+    "nivel": "Filología Inglesa",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "2104",
+    "nivel": "Grado en Contabilidad y Finanzas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "259",
+    "nivel": "Filología Italiana",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1478",
+    "nivel": "Grado en Creación y Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "260",
+    "nivel": "Filología Latina",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1479",
+    "nivel": "Grado en Criminología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "261",
+    "nivel": "Filología Románica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1480",
+    "nivel": "Grado en Criminología y Políticas Públicas de Prevención",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "262",
+    "nivel": "Filología Vasca",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1481",
+    "nivel": "Grado en Criminología y Seguridad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "263",
+    "nivel": "Filosofía",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1482",
+    "nivel": "Grado en Derecho",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "264",
+    "nivel": "Filosofía del Derecho",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1483",
+    "nivel": "Grado en Desarrollo, Gestión Comercial y Estrategias de Mercado",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "265",
+    "nivel": "Filosofía Moral",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1484",
+    "nivel": "Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "266",
+    "nivel": "Física Aplicada",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1491",
+    "nivel": "Grado en Dirección, Creación y Producción de Contenidos Digitales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "267",
+    "nivel": "Física Atómica, Molecular y Nuclear",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1485",
+    "nivel": "Grado en Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "268",
+    "nivel": "Física de la Materia Condensada",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1486",
+    "nivel": "Grado en Dirección de Empresas Tecnológicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "269",
+    "nivel": "Física de la Tierra",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1487",
+    "nivel": "Grado en Dirección Internacional de Empresas de Turismo y Ocio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "270",
+    "nivel": "Física Teórica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1488",
+    "nivel": "Grado en Dirección y Administración de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "271",
+    "nivel": "Fisiología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1489",
+    "nivel": "Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "272",
+    "nivel": "Fisiología Vegetal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1490",
+    "nivel": "Grado en Dirección y Gestión Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "273",
+    "nivel": "Fisioterapia",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1492",
+    "nivel": "Grado en Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "274",
+    "nivel": "Fundamentos del Análisis Económico",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1493",
+    "nivel": "Grado en Diseño de Interiores",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "275",
+    "nivel": "Genética",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1494",
+    "nivel": "Grado en Diseño de Moda",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2100",
+    "nivel": "Geodesia y Geomática",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1495",
+    "nivel": "Grado en Diseño Integral y Gestión de la Imagen",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "276",
+    "nivel": "Geodinámica Externa",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1496",
+    "nivel": "Grado en Diseño Multimedia y Gráfico",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "277",
+    "nivel": "Geodinámica Interna",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1497",
+    "nivel": "Grado en Diseño Visual de Contenidos Digitales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "278",
+    "nivel": "Geografía Física",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1498",
+    "nivel": "Grado en Diseño y Desarrollo de Videojuegos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "279",
+    "nivel": "Geografía Humana",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1499",
+    "nivel": "Grado en Diseño y Desarrollo de Videojuegos y Sistemas Interactivos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "280",
+    "nivel": "Geometría y Topología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1500",
+    "nivel": "Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1501",
+    "nivel": "Grado en Economía Financiera y Actuarial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "281",
+    "nivel": "Histología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1502",
+    "nivel": "Grado en Economía y Negocios Internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "282",
+    "nivel": "Historia Antigua",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1503",
+    "nivel": "Grado en Educación Infantil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "283",
+    "nivel": "Historia Contemporánea",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1504",
+    "nivel": "Grado en Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "284",
+    "nivel": "Historia de América",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1505",
+    "nivel": "Grado en Educación Social",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "285",
+    "nivel": "Historia de la Ciencia",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1506",
+    "nivel": "Grado en Empresa y Tecnología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "286",
+    "nivel": "Historia del Arte",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1507",
+    "nivel": "Grado en Empresas y Actividades Turísticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "287",
+    "nivel": "Historia del Derecho y de las Instituciones",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1508",
+    "nivel": "Grado en Enfermería",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "288",
+    "nivel": "Historia del Pensamiento y de los Movimientos Sociales",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1509",
+    "nivel": "Grado en Enología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "289",
+    "nivel": "Historia e Instituciones Económicas",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1510",
+    "nivel": "Grado en Español: Estudios Lingüísticos y Literarios",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "290",
+    "nivel": "Historia Medieval",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1511",
+    "nivel": "Grado en Español: Lengua y Literatura",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "291",
+    "nivel": "Historia Moderna",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1512",
+    "nivel": "Grado en Estadística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "292",
+    "nivel": "Ingeniería Aeroespacial",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1513",
+    "nivel": "Grado en Estadística Aplicada",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "293",
+    "nivel": "Ingeniería Agroforestal",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1514",
+    "nivel": "Grado en Estadística Empresarial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2069",
+    "nivel": "Ingeniería Biomédica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1515",
+    "nivel": "Grado en Estadística y Empresa",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "294",
+    "nivel": "Ingeniería Cartográfica, Geodésica y Fotogrametría",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1516",
+    "nivel": "Grado en Estudios Alemanes",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "295",
+    "nivel": "Ingeniería de la Construcción",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1517",
+    "nivel": "Grado en Estudios Árabes e Islámicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "296",
+    "nivel": "Ingeniería de los Procesos de Fabricación",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1518",
+    "nivel": "Grado en Estudios Árabes y Hebreos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "297",
+    "nivel": "Ingeniería de Sistemas y Automática",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1519",
+    "nivel": "Grado en Estudios Catalanes y Occitanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "298",
+    "nivel": "Ingeniería del Terreno",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1520",
+    "nivel": "Grado en Estudios Clásicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "299",
+    "nivel": "Ingeniería e Infraestructura de los Transportes",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1521",
+    "nivel": "Grado en Estudios Clásicos y Románicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "300",
+    "nivel": "Ingeniería Eléctrica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1522",
+    "nivel": "Grado en Estudios de Asia Oriental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "301",
+    "nivel": "Ingeniería Hidráulica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1523",
+    "nivel": "Grado en Estudios de Asia y África: Arabe, Chino y Japonés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "302",
+    "nivel": "Ingeniería Mecánica",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1524",
+    "nivel": "Grado en Estudios de Catalán y de Clásicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "303",
+    "nivel": "Ingeniería Nuclear",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1525",
+    "nivel": "Grado en Estudios de Catalán y Español",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "304",
+    "nivel": "Ingeniería Química",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1526",
+    "nivel": "Grado en Estudios de Español y de Clásicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "305",
+    "nivel": "Ingeniería Telemática",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1527",
+    "nivel": "Grado en Estudios de Francés y Catalán",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "306",
+    "nivel": "Ingeniería Textil y Papelera",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1528",
+    "nivel": "Grado en Estudios de Francés y de Clásicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "307",
+    "nivel": "Inmunología",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1529",
+    "nivel": "Grado en Estudios de Francés y Español",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "308",
+    "nivel": "Lengua Española",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1530",
+    "nivel": "Grado en Estudios de Gallego y Español",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "309",
+    "nivel": "Lengua y Cultura del Extremo Oriente",
+    "id_nivel": 150,
+    "denominacion": "Doctorado"
+  },
+  {
+    "id": "1531",
+    "nivel": "Grado en Estudios de Inglés y Catalán",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1913",
+    "nivel": "PCEO Grado en Dirección y Creación de Empresas /Grado en Marketing y Dirección Comercial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1914",
+    "nivel": "PCEO Grado en Diseño / Grado en Publicidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1915",
+    "nivel": "PCEO Grado en Diseño Industrial y Desarrollo de Producto / Grado en Bellas Artes",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1916",
+    "nivel": "PCEO Grado en Diseño industrial y desarrollo de producto / Grado en Diseño de interiores",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1917",
+    "nivel": "PCEO Grado en Diseño industrial y desarrollo de producto / Grado en Ingeniería del automóvil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1918",
+    "nivel": "PCEO Grado en Economía / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1919",
+    "nivel": "PCEO Grado en Economía / Grado en Estadística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1920",
+    "nivel": "PCEO Grado en Economía / Grado en Finanzas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1921",
+    "nivel": "PCEO Grado en Economía / Grado en Historia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1922",
+    "nivel": "PCEO Grado en Economía / Grado en Relaciones Internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1923",
+    "nivel": "PCEO Grado en Economía Financiera y Actuarial / Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1924",
+    "nivel": "PCEO Grado en Economía Financiera y Actuarial / Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1925",
+    "nivel": "PCEO Grado en Educación Infantil / Grado en Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1926",
+    "nivel": "PCEO Grado en Educación Infantil / Grado en Pedagogía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1927",
+    "nivel": "PCEO Grado en Educación Primaria / Grado en Ciencias de la Actividad Física y del Deporte ",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1928",
+    "nivel": "PCEO Grado en Educación Primaria / Grado en Pedagogía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1929",
+    "nivel": "PCEO Grado en Educación Social / Grado en Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1930",
+    "nivel": "PCEO Grado en Educación Social / Grado en Trabajo Social",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1931",
+    "nivel": "PCEO Grado en Estudios Árabes e Islámicos / Grado en Estudios Ingleses",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1932",
+    "nivel": "PCEO Grado en Estudios Franceses / Grado en Estudios Ingleses",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1933",
+    "nivel": "PCEO Grado en Estudios ingleses / Grado en Estudios clásicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1934",
+    "nivel": "PCEO Grado en Estudios Ingleses / Grado en Filología Clásica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1935",
+    "nivel": "PCEO Grado en Estudios ingleses / Grado en Lengua y literatura catalanas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1936",
+    "nivel": "PCEO Grado en Estudios ingleses / Grado en Lengua y literatura españolas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1937",
+    "nivel": "PCEO Grado en Estudios ingleses comb. con lengua y literatura catalana o lengua y literatura española o con estudios clásicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1938",
+    "nivel": "PCEO Grado en Farmacia / Grado en Biotecnología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1939",
+    "nivel": "PCEO Grado en Farmacia / Grado en Nutrición Humana y Dietética",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1941",
+    "nivel": "PCEO Grado en Farmacia / Grado en Óptica, Optometría y Audiología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1940",
+    "nivel": "PCEO Grado en Farmacia / Grado en Óptica y Optometría",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1942",
+    "nivel": "PCEO Grado en Filologia francesa combinada con estudios ingleses o lengua y literatura catalana o lengua y literatura española",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1943",
+    "nivel": "PCEO Grado en Filología Hispánica / Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1944",
+    "nivel": "PCEO Grado en Filología Hispánica / Grado en Estudios Ingleses",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1945",
+    "nivel": "PCEO Grado en Filología Hispánica / Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1946",
+    "nivel": "PCEO Grado en Filosofía / Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1947",
+    "nivel": "PCEO Grado en Finanzas y Contabilidad / Grado en Relaciones Laborales y Recursos Humanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1948",
+    "nivel": "PCEO Grado en Física / Grado en Ingeniería de Materiales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1949",
+    "nivel": "PCEO Grado en Física / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1950",
+    "nivel": "PCEO Grado en Física / Grado en Química",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1951",
+    "nivel": "PCEO Grado en Fisioterapia / Grado en Ciencias de la Actividad Física y del Deporte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1952",
+    "nivel": "PCEO Grado en Fisioterapia / Grado en Podología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1953",
+    "nivel": "PCEO Grado en Fundamentos de la Arquitectura / Grado en Arte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1954",
+    "nivel": "PCEO Grado en Fundamentos de la Arquitectura / Grado en Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1955",
+    "nivel": "PCEO Grado en Fundamentos de la Arquitectura / Grado en Diseño de Interiores",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1956",
+    "nivel": "PCEO Grado en Geología / Grado en Ciencias Ambientales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1957",
+    "nivel": "PCEO Grado en Historia / Grado en Ciencia Política y Gestión Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1958",
+    "nivel": "PCEO Grado en Historia / Grado en Historia del Arte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1959",
+    "nivel": "PCEO Grado en Historia / Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1960",
+    "nivel": "PCEO Grado en Humanidades / Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1961",
+    "nivel": "PCEO Grado en Humanidades / Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1962",
+    "nivel": "PCEO Grado en Humanidades / Grado en Publicidad y Relaciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1963",
+    "nivel": "PCEO Grado en Humanidades / Grado en Traducción e Interpretación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1964",
+    "nivel": "PCEO Grado en Ingeniería Aeroespacial en Aeronaves / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1965",
+    "nivel": "PCEO Grado en Ingeniería Ambiental / Grado en Ingeniería en Energía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1966",
+    "nivel": "PCEO Grado en Ingeniería Ambiental / Grado en Ingeniería en Organización Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1967",
+    "nivel": "PCEO Grado en Ingeniería Civil / Grado en Ingeniería en Tecnologías Aeroespaciales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1968",
+    "nivel": "PCEO Grado en Ingeniería Civil / Grado en Ingeniería en Tecnologías Industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1969",
+    "nivel": "PCEO Grado en Ingeniería Civil / Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1970",
+    "nivel": "PCEO Grado en Ingeniería Civil / Grado en Ingeniería Informática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1971",
+    "nivel": "PCEO Grado en Ingeniería Civil / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1972",
+    "nivel": "PCEO Grado en Ingeniería de la Edificación / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1973",
+    "nivel": "PCEO Grado en Ingeniería de la Energía / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1974",
+    "nivel": "PCEO Grado en Ingeniería de la Energía / Grado en Ingeniería en Organización Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1975",
+    "nivel": "PCEO Grado en Ingeniería de Materiales / Grado en Ingeniería en Energía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1976",
+    "nivel": "PCEO Grado en Ingeniería de Materiales / Grado en Ingeniería en Organización Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1977",
+    "nivel": "PCEO Grado en Ingeniería de Obras Públicas en Hidrología / Grado en Ciencias Ambientales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1978",
+    "nivel": "PCEO Grado en Ingeniería de Sistemas Audiovisuales / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1979",
+    "nivel": "PCEO Grado en Ingeniería de Sistemas de Información/ Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1980",
+    "nivel": "PCEO Grado en Ingeniería de Sistemas de Información/ Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1981",
+    "nivel": "PCEO Grado en Ingeniería de Sistemas de Telecomunicación/ Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1982",
+    "nivel": "PCEO Grado en Ingeniería de Sistemas de Telecomunicación/ Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1983",
+    "nivel": "PCEO Grado en Ingeniería de Sistemas Telecomunicación / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1984",
+    "nivel": "PCEO Grado en Ingeniería del Software / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1985",
+    "nivel": "PCEO Grado en Ingeniería Electrónica Industrial y Automática / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1986",
+    "nivel": "PCEO Grado en Ingeniería en Construcciones Civiles / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1987",
+    "nivel": "PCEO Grado en Ingeniería en Construcciones Civiles / Grado en Ingeniería de la Edificación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1988",
+    "nivel": "PCEO Grado en Ingeniería en Tecnologías Aeroespaciales / Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1989",
+    "nivel": "PCEO Grado en Ingeniería en Tecnologías Aeroespaciales / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1990",
+    "nivel": "PCEO Grado en Ingeniería en tecnologías industriales / Grado en Ingeniería del automóvil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1991",
+    "nivel": "PCEO Grado en Ingeniería en Tecnologías Industriales / Grado en Ingeniería en Tecnologías Aeroespaciales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1992",
+    "nivel": "PCEO Grado en Ingeniería en Tecnologías Industriales / Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1993",
+    "nivel": "PCEO Grado en Ingeniería en Tecnologías Industriales / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1994",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1995",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1996",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Ingeniería de Computadores",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1997",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Ingeniería del Software",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1998",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Ingeniería en Tecnologías Aeroespaciales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1999",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Ingeniería en Tecnologías Industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2000",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2001",
+    "nivel": "PCEO Grado en Ingeniería Informática / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2002",
+    "nivel": "PCEO Grado en Ingeniería mecánica / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2003",
+    "nivel": "PCEO Grado en Ingeniería mecánica / Grado en Diseño industrial y desarrollo de producto",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2004",
+    "nivel": "PCEO Grado en Ingeniería mecánica / Grado en Ingeniería del automóvil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2005",
+    "nivel": "PCEO Grado en Ingeniería mecánica / Grado en Ingeniería en tecnologías industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2006",
+    "nivel": "PCEO Grado en Ingeniería Química / Grado en Ingeniería Ambiental",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2007",
+    "nivel": "PCEO Grado en Ingeniería Química / Grado en Ingeniería en Energía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2008",
+    "nivel": "PCEO Grado en Ingeniería Química / Grado en Ingeniería en Organización Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2009",
+    "nivel": "PCEO Grado en Ingeniería Telemática / Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2010",
+    "nivel": "PCEO Grado en Ingeniería Telemática / Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2011",
+    "nivel": "PCEO Grado en Ingeniería Telemática / Grado en Ingeniería Electrónica de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2012",
+    "nivel": "PCEO Grado en Lengua y literatura catalanas / Grado en Estudios clásicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2013",
+    "nivel": "PCEO Grado en Lengua y literatura catalanas / Grado en Lengua y literatura españolas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2014",
+    "nivel": "PCEO Grado en Lengua y literatura españolas / Grado en Estudios clásicos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2015",
+    "nivel": "PCEO Grado en Lenguas Aplicadas / Grado en Traducción",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1763",
+    "nivel": "Grado en Lenguas Modernas y sus Literaturas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1765",
+    "nivel": "Grado en Lenguas y Literaturas Modernas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1766",
+    "nivel": "Grado en Lenguas y Literaturas Modernas, Fránces - Inglés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1767",
+    "nivel": "Grado en Lenguas y Literaturas Modernas-Francés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1768",
+    "nivel": "Grado en Lenguas y Literaturas Modernas-Portugués",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1770",
+    "nivel": "Grado en Liderazgo Emprendedor e Innovación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1771",
+    "nivel": "Grado en Lingüística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1772",
+    "nivel": "Grado en Lingüística y Lenguas Aplicadas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1773",
+    "nivel": "Grado en Literaturas Comparadas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1774",
+    "nivel": "Grado en Logopedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1775",
+    "nivel": "Grado en Maestro en Educación Infantil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1776",
+    "nivel": "Grado en Maestro en Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1777",
+    "nivel": "Grado en Maestro o Maestra en Educación Infantil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1778",
+    "nivel": "Grado en Maestro o Maestra en Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1779",
+    "nivel": "Grado en Magisterio de Educación Infantil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1780",
+    "nivel": "Grado en Magisterio de Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1781",
+    "nivel": "Grado en Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1782",
+    "nivel": "Grado en Marketing e Investigación de Mercados",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1783",
+    "nivel": "Grado en Marketing y Comunicación Comercial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1784",
+    "nivel": "Grado en Marketing y Gestión Comercial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1785",
+    "nivel": "Grado en Matemática Computacional",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1786",
+    "nivel": "Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1787",
+    "nivel": "Grado en Matemáticas y Estadística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1788",
+    "nivel": "Grado en Medicina",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1789",
+    "nivel": "Grado en Medios Audiovisuales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1790",
+    "nivel": "Grado en Microbiología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1791",
+    "nivel": "Grado en Multimedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1792",
+    "nivel": "Grado en Multimedia y Artes Digitales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1793",
+    "nivel": "Grado en Musicología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1794",
+    "nivel": "Grado en Nanociencia y Nanotecnología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1795",
+    "nivel": "Grado en Negocios Internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1796",
+    "nivel": "Grado en Nutrición Humana y Dietética",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1797",
+    "nivel": "Grado en Odontología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1799",
+    "nivel": "Grado en Óptica, Optometría y Audiología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1798",
+    "nivel": "Grado en Óptica y Optometría",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1800",
+    "nivel": "Grado en Organización de Eventos, Protocolo y Relaciones Institucionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1801",
+    "nivel": "Grado en Organización Industrial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1802",
+    "nivel": "Grado en Paisajismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1803",
+    "nivel": "Grado en Pedagogía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1804",
+    "nivel": "Grado en Pedagogía de las Artes Visuales y la Danza",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1805",
+    "nivel": "Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1806",
+    "nivel": "Grado en Piloto de Aviación Comercial y Operaciones Aéreas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1807",
+    "nivel": "Grado en Piloto y dirección de operaciones aereas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1808",
+    "nivel": "Grado en Podología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1809",
+    "nivel": "Grado en Prevención y Seguridad Integral",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1810",
+    "nivel": "Grado en Protocolo y Organización de Eventos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1811",
+    "nivel": "Grado en Proyectos de Interiorismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1812",
+    "nivel": "Grado en Psicología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1813",
+    "nivel": "Grado en Publicidad y Relaciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1814",
+    "nivel": "Grado en Química",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1815",
+    "nivel": "Grado en Recursos Energéticos y Mineros",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1816",
+    "nivel": "Grado en Relaciones internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1817",
+    "nivel": "Grado en Relaciones Laborales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1818",
+    "nivel": "Grado en Relaciones Laborales y Desarrollo de Recursos Humanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1819",
+    "nivel": "Grado en Relaciones Laborales y Empleo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1820",
+    "nivel": "Grado en Relaciones Laborales y Ocupación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1821",
+    "nivel": "Grado en Relaciones Laborales y Recursos Humanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1822",
+    "nivel": "Grado en Seguridad y Emergencias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1823",
+    "nivel": "Grado en Sistemas de Información",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1824",
+    "nivel": "Grado en Sociología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1825",
+    "nivel": "Grado en Sociología Aplicada",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1826",
+    "nivel": "Grado en Tecnología de la Ingeniería Civil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1827",
+    "nivel": "Grado en Tecnología de las Industrias Agrarias y Alimentarias",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1828",
+    "nivel": "Grado en Tecnología y Gestión Alimentaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1829",
+    "nivel": "Grado en Tecnologías de Telecomunicación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1830",
+    "nivel": "Grado en Terapia Ocupacional",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1831",
+    "nivel": "Grado en Trabajo Social",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1832",
+    "nivel": "Grado en Traducción",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1833",
+    "nivel": "Grado en Traducción e Interpretación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1834",
+    "nivel": "Grado en Traducción e Interpretación: Inglés-Alemán",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1835",
+    "nivel": "Grado en Traducción e Interpretación: Inglés-Francés",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1836",
+    "nivel": "Grado en Traducción y Comunicación Intercultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1837",
+    "nivel": "Grado en Traducción y Mediación Interlingüística",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1838",
+    "nivel": "Grado en Turismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1839",
+    "nivel": "Grado en Turismo - Administración de Organizaciones y Recursos Turísticos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1840",
+    "nivel": "Grado en Turismo y Gestión del Ocio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1841",
+    "nivel": "Grado en Urbanismo, Ordenación Territorial y Sostenibilidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1842",
+    "nivel": "Grado en Veterinaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2133",
+    "nivel": "Grado en Turismo y Comercio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1843",
+    "nivel": "PCEO Grado en Actividad Física y del Deporte / Grado en Nutrición Humana y Dietética",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1844",
+    "nivel": "PCEO Grado en Administración de Empresas / Grado en Publicidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1845",
+    "nivel": "PCEO Grado en Administración de Empresas / Grado en Turismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1846",
+    "nivel": "PCEO Grado en Administración de empresas y gestión de la innovación / Grado en Turismo y gestión del ocio",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1847",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Ciencias del Trabajo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1848",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Derecho",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1849",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Desarrollo, Gestión Comercial y Estrategias de Mercado",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1850",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1851",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Dirección Financiera y Contabilidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1852",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1853",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Ingeniería en Informática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1854",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Ingeniería en Tecnologías Industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1855",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1856",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1857",
+    "nivel": "PCEO Grado en Administración y Dirección de empresas / Grado en Publicidad y relaciones públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1858",
+    "nivel": "PCEO Grado en Administración y Dirección de Empresas / Grado en Relaciones Laborales y Recursos Humanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1859",
+    "nivel": "PCEO Grado en Antropología / Grado en Trabajo Social",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1860",
+    "nivel": "PCEO Grado en Arquitectura / Grado en Arte",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1861",
+    "nivel": "PCEO Grado en Arquitectura / Grado en Bellas Artes",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1862",
+    "nivel": "PCEO Grado en Arquitectura / Grado en Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1863",
+    "nivel": "PCEO Grado en Arquitectura / Grado en Diseño Industrial y Desarrollo de Producto",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1864",
+    "nivel": "PCEO Grado en Arquitectura / Grado en Ingeniería de la Edificación",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1865",
+    "nivel": "PCEO Grado en Arte / Grado en Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1866",
+    "nivel": "PCEO Grado en Artes Escénicas / Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1867",
+    "nivel": "PCEO Grado en Artes Escénicas y Mediáticas / Grado en Ciencias de la Danza",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1868",
+    "nivel": "PCEO Grado en Bellas Artes / Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1869",
+    "nivel": "PCEO Grado en Bellas Artes / Grado en Diseño de interiores",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1870",
+    "nivel": "PCEO Grado en CC Ambientales / Grado en CC del Mar",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1871",
+    "nivel": "PCEO Grado en CC Ambientales / Grado en CC Químicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1872",
+    "nivel": "PCEO Grado en Ciencia Política y Gestión Pública / Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1873",
+    "nivel": "PCEO Grado en Ciencia Política y Gestión Pública / Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1874",
+    "nivel": "PCEO Grado en Ciencias de la Actividad Física y del Deporte / Grado en Maestros de Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1875",
+    "nivel": "PCEO Grado en Ciencias de la Actividad Física y el Deporte / Diplomatura en Magisterio Educación Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1876",
+    "nivel": "PCEO Grado en Ciencias del Mar / Grado en Biotecnología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1877",
+    "nivel": "PCEO Grado en Ciencias Políticas / Grado en Publicidad y Relaciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1878",
+    "nivel": "PCEO Grado en Ciencias Políticas / Grado en Sociología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1879",
+    "nivel": "PCEO Grado en Ciencias y Tecnologías de las Telecomunicaciones / Grado en Ingeniería en Tecnologías Aeroespaciales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1880",
+    "nivel": "PCEO Grado en Ciencias y Tecnologías de las Telecomunicaciones / Grado en Ingeniería en Tecnologías Industriales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1881",
+    "nivel": "PCEO Grado en Ciencias y Tecnologías de las Telecomunicaciones / Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1882",
+    "nivel": "PCEO Grado en Ciencias y Tecnologías de las Telecomunicaciones / Grado en Ingeniería Informática",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1883",
+    "nivel": "PCEO Grado en Ciencias y Tecnologías de las Telecomunicaciones / Grado en Matemáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1884",
+    "nivel": "PCEO Grado en Cine / Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1885",
+    "nivel": "PCEO Grado en Comunicación Audiovisual / Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1886",
+    "nivel": "PCEO Grado en Comunicación Audiovisual / Grado en Publicidad y Relaciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1887",
+    "nivel": "PCEO Grado en Comunicación Audiovisual y Multimedia / Grado en Artes Escénicas y Mediáticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1888",
+    "nivel": "PCEO Grado en Comunicación Audiovisual y Multimedia / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1889",
+    "nivel": "PCEO Grado en Comunicación Publicitaria / Grado en Comunicación Audiovisual y Multimedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1890",
+    "nivel": "PCEO Grado en Comunicación Publicitaria / Grado en Diseño",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1891",
+    "nivel": "PCEO Grado en Criminología / Grado en Derecho",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1892",
+    "nivel": "PCEO Grado en Derecho / Grado en Ciencia Política y Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1893",
+    "nivel": "PCEO Grado en Derecho / Grado en Ciencia Política y Gestión Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1894",
+    "nivel": "PCEO Grado en Derecho / Grado en Ciencias Criminológicas y de la Seguridad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1895",
+    "nivel": "PCEO Grado en Derecho / Grado en Ciencias Políticas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1896",
+    "nivel": "PCEO Grado en Derecho / Grado en Ciencias Políticas y de la Administración",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1897",
+    "nivel": "PCEO Grado en Derecho / Grado en Ciencias Políticas y de la Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1898",
+    "nivel": "PCEO Grado en Derecho / Grado en Criminología Criminología y Dirección de Seguridad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1899",
+    "nivel": "PCEO Grado en Derecho / Grado en Dirección y Creación de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1900",
+    "nivel": "PCEO Grado en Derecho / Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1901",
+    "nivel": "PCEO Grado en Derecho / Grado en Finanzas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1902",
+    "nivel": "PCEO Grado en Derecho / Grado en Finanzas y Contabilidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1903",
+    "nivel": "PCEO Grado en Derecho / Grado en Gestión Económica Financiera",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1904",
+    "nivel": "PCEO Grado en Derecho / Grado en Gestión y Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1905",
+    "nivel": "PCEO Grado en Derecho / Grado en Márketing y Dirección Comercial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1906",
+    "nivel": "PCEO Grado en Derecho / Grado en Publicidad y Relaciones Públicas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1907",
+    "nivel": "PCEO Grado en Derecho / Grado en Relaciones internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1908",
+    "nivel": "PCEO Grado en Derecho / Grado en Relaciones Laborales y Recursos Humanos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1909",
+    "nivel": "PCEO Grado en Desarrollo, Gestión Comercial y Estrategias de Mercado / Grado en Dirección Financiera y Contabilidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1910",
+    "nivel": "PCEO Grado en Dirección de Empresas / Grado en Derecho",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1911",
+    "nivel": "PCEO Grado en Dirección Internacional de Empresas de Turismo y Ocio / Grado en Marketing y Dirección Comercial",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "1912",
+    "nivel": "PCEO Grado en Dirección y Creación de Empresas / Grado en Relaciones Internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2016",
+    "nivel": "PCEO Grado en Lenguas Aplicadas / Grado en Turismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2017",
+    "nivel": "PCEO Grado en Lenguas modernas / Grado en Traducción",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2018",
+    "nivel": "PCEO Grado en Lenguas Modernas y Gestión / Grado en Relaciones Internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2019",
+    "nivel": "PCEO Grado en Lingüística Aplicada / Grado en Estudios Ingleses",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2020",
+    "nivel": "PCEO Grado en Logopedia / Grado en Educación Infantil",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2021",
+    "nivel": "PCEO Grado en Logopedia / Grado en Psicología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2022",
+    "nivel": "PCEO Grado en Maestro en Educación Infantil / Grado en Maestro en Educación Primaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2023",
+    "nivel": "PCEO Grado en Marketing e Investigación de Mercados / Grado en Turismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2024",
+    "nivel": "PCEO Grado en Márketing y Dirección Comercial / Grado en Comunicación Publicitaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2025",
+    "nivel": "PCEO Grado en Matemáticas / Grado en Ingeniería Física",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2026",
+    "nivel": "PCEO Grado en Periodismo / Grado en Comunicación Audiovisual",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2027",
+    "nivel": "PCEO Grado en Periodismo / Grado en Comunicación Audiovisual y Multimedia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2028",
+    "nivel": "PCEO Grado en Periodismo / Grado en Comunicación Audiovisual y Multimedia / Grado en Comunicación Publicitaria",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2029",
+    "nivel": "PCEO Grado en Periodismo / Grado en Derecho",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2030",
+    "nivel": "PCEO Grado en Periodismo / Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2031",
+    "nivel": "PCEO Grado en Periodismo / Grado en Protocolo y Organización de Eventos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2032",
+    "nivel": "PCEO Grado en Periodismo / Grado en Relaciones internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2033",
+    "nivel": "PCEO Grado en Periodismo /Grado en Publicidad",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2034",
+    "nivel": "PCEO Grado en Podología / Grado en Enfermería",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2035",
+    "nivel": "PCEO Grado en Psicología / Grado en Criminología",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2036",
+    "nivel": "PCEO Grado en Publicidad / Grado en Turismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2037",
+    "nivel": "PCEO Grado en Publicidad y Relaciones Públicas / Grado en Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2038",
+    "nivel": "PCEO Grado en Publicidad y Relaciones Públicas / Grado en Marketing e Investigación de Mercados",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2039",
+    "nivel": "PCEO Grado en Publicidad y Relaciones Públicas / Grado en Periodismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2040",
+    "nivel": "PCEO Grado en Publicidad y Relaciones Públicas / Grado en Turismo",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2041",
+    "nivel": "PCEO Grado en Química / Grado en Bioquímica",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2042",
+    "nivel": "PCEO Grado en Química / Grado en Ingeniería de Materiales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2043",
+    "nivel": "PCEO Grado en Relaciones Internacionales / Grado en Traducción y Comunicación Intercultural",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2044",
+    "nivel": "PCEO Grado en Sociología / Grado en Administración y Dirección de Empresas",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2045",
+    "nivel": "PCEO Grado en Sociología / Grado en Ciencias Políticas y de la Administración",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2046",
+    "nivel": "PCEO Grado en Sociología / Grado en Ciencias Políticas y de la Administración Pública",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2047",
+    "nivel": "PCEO Grado en Sociología / Grado en Relaciones Laborales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2048",
+    "nivel": "PCEO Grado en Terapia Ocupacional / Grado en Fisioterapia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2049",
+    "nivel": "PCEO Grado en Traducción e Interpretación / Grado en Relaciones Internacionales",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2050",
+    "nivel": "PCEO Grado en Traducción e Interpretación / Licenciado en Filología Francesa",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2051",
+    "nivel": "PCEO Grado en Traducción e Interpretación Inglés-Frances / Grado en Traducción e Interpretación Inglés-Alemán",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2052",
+    "nivel": "PCEO Grado en Traducción e Interpretación y Licenciado en Filología Francesa",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2053",
+    "nivel": "PCEO Grado en Turismo / Grado en Dirección Comercial y Marketing",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2054",
+    "nivel": "PCEO Grado en Turismo / Grado en Historia",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2055",
+    "nivel": "PCEO Grado Internacional en Administración y Dirección de Empresas / Grado en Economía",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  },
+  {
+    "id": "2056",
+    "nivel": "PCEO Grado Publicidad y Relaciones Públicas / Grado en Protocolo y Organización de Eventos",
+    "id_nivel": 125,
+    "denominacion": "Grado"
+  }
+]

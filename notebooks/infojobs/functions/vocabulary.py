@@ -1,7 +1,6 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 import json
 from functions.tokenizer import *
-# from notebooks.functions.tokenizer import *
 
 
 
@@ -21,7 +20,7 @@ def save_vocabulary(vocabulary, vocabulary_path):
 def create_vocabulary(df_train):
     # This function returns a dictionary with the vocabulary of each column
     # The keys are the columns and the values are the vocabulary of each column
-    columns = ['CATEGORIA', 'SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO_NUEVAS']
+    columns = ['CATEGORIA', 'SUBCATEGORIA', 'PALABRAS_EMPLEO_TEXTO']
     vocabularies = {}
     for column in columns:
         df_train[column] = df_train[column].astype(str)
@@ -39,19 +38,19 @@ def create_vocabulary(df_train):
 
 def get_vocabulary_dimension(vocabulary):
     # This function returns the total size of the vocabulary (the dimension)
-    return len(vocabulary['CATEGORIA']) + len(vocabulary['SUBCATEGORIA']) + len(vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'])
+    return len(vocabulary['CATEGORIA']) + len(vocabulary['SUBCATEGORIA']) + len(vocabulary['PALABRAS_EMPLEO_TEXTO'])
 
 def filter_vocabulary(vocabulary, vocabulary_delete):
     words = vocabulary_delete.keys()
-    # Delete the word in vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'] if it is in words
-    for word in vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS']:
+    # Delete the word in vocabulary['PALABRAS_EMPLEO_TEXTO'] if it is in words
+    for word in vocabulary['PALABRAS_EMPLEO_TEXTO']:
         if word.upper() in words:
-            vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'].remove(word)
+            vocabulary['PALABRAS_EMPLEO_TEXTO'].remove(word)
     return vocabulary
 
 def setup_vocabulary(vocabulary, df_train):
     new_vocabulary = {}
-    new_vocabulary['PALABRAS_EMPLEO_TEXTO_NUEVAS'] = vocabulary
+    new_vocabulary['PALABRAS_EMPLEO_TEXTO'] = vocabulary
     # Get all categories from unique values of CATEGORIA in df_train
     new_vocabulary['CATEGORIA'] = df_train['CATEGORIA'].unique().tolist()
     # Get all subcategories from unique values of SUBCATEGORIA in df_train

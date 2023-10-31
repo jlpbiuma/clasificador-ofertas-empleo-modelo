@@ -193,24 +193,30 @@ def create_payload(token, site, location, initial_date, end_date, size=100, offs
 def get_offers(token, site, location, initial_date, end_date, size, offset):
     headers = {'Content-Type': 'application/json'}
     json_payload = create_payload(token, site, location, initial_date, end_date, size=size, offset=offset)
-    r = requests.post(offers_url, data=json_payload, headers=headers, timeout=10)
-    if r.status_code == 200:
-        data = r.json()
-        # print(data)
-        return data['offers']
-    else:
-        print(f"Request failed with status code {r.status_code}")
+    try:
+        r = requests.post(offers_url, data=json_payload, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            # print(data)
+            return data['offers']
+        else:
+            print(f"Request failed with status code {r.status_code}")
+            return None
+    except:
         return None
 
 def get_count(token, site, location, initial_date, end_date):
     headers = {'Content-Type': 'application/json'}
     json_payload = create_payload(token, site, location, initial_date, end_date)
-    r = requests.post(count_url, data=json_payload, headers=headers)
-    if r.status_code == 200:
-        data = r.json()
-        return data['offers']['market']
-    else:
-        print(f"Request failed with status code {r.status_code}")
+    try:
+        r = requests.post(count_url, data=json_payload, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            return data['offers']['market']
+        else:
+            print(f"Request failed with status code {r.status_code}")
+            return None
+    except:
         return None
 
 def get_offers_by_period(token, site, location, initial_date, end_date, max_offers=1000):
@@ -222,7 +228,10 @@ def get_offers_by_period(token, site, location, initial_date, end_date, max_offe
         print(f"Actual offers: {len(offers)}")
         size = 100
         response = get_offers(token, site, location, initial_date, end_date, size, offset)
-        offers.extend(response)
+        if response is not None:
+            offers.extend(response)
+        else:
+            print("Error en la petición", offset, size, initial_date, end_date)
         if len(offers) >= max_offers:
             break
     return offers
@@ -238,7 +247,10 @@ def get_offers_by_period_list(token, site, location, periods, max_offers=1000):
         # Wrap the loop with tqdm to create a progress bar
         for offset in tqdm(range(0, count, 100), desc="Downloading offers"):
             response = get_offers(token, site, location, initial_date, end_date, size=100, offset=offset)
-            offers.extend(response)
+            if response is not None:
+                offers.extend(response)
+            else:
+                print("Error en la petición", offset, 100, initial_date, end_date)
             if len(offers) >= max_offers:
                 break  # Exit the loop if you reach the maximum number of offers
     return offers
@@ -258,6 +270,9 @@ initial_date = '2021-01-01'
 end_date = '2023-07-01'
 new_periods = create_date_range(initial_date, end_date)
 offers_news = get_offers_by_period_list(token, site, location, new_periods, max_offers=N_offers)
+# Save the offers in a JSON file
+with open("./data/offers.json", "w") as f:
+    json.dump(offers_news, f)
 
 
 # In[ ]:
