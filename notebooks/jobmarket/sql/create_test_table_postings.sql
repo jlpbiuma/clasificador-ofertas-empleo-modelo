@@ -5,5 +5,5 @@ USE test CREATE TABLE postings_jobmarket_canarias_21_23 (
     url VARCHAR(255) NOT NULL,
     titleOriginal VARCHAR(255) NOT NULL,
     site VARCHAR(255) NOT NULL,
-    salaryOriginal DECIMAL(10, 2)
+    salaryOriginal VARCHAR(255)
 );

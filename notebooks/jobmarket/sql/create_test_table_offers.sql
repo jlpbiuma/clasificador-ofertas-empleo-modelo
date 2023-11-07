@@ -1,4 +1,4 @@
-USE test CREATE TABLE ofertas_jobmarket_canarias_21_23 (
+CREATE TABLE ofertas_jobmarket_canarias_21_23 (
     id INT AUTO_INCREMENT PRIMARY KEY,
     description TEXT NOT NULL,
     title VARCHAR(255) NOT NULL,
