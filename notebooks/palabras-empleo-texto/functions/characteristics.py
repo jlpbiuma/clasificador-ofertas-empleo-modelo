@@ -1,24 +1,13 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Import libraries
-
-# In[1]:
-
-
-import pandas as pd
 import json
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
+import pandas as pd
+import re
+from unidecode import unidecode
 from nltk import ngrams
-import nltk
 
-
-# # Global variables
-
-# In[2]:
-
-
+expections = ["@", r"\."]
 data_path = './notebooks/palabras-empleo-texto/data/'
 dictionary_path = './notebooks/palabras-empleo-texto/static/'
 stopwords = stopwords.words('spanish')
@@ -27,11 +16,6 @@ df_empleo = pd.read_csv(dictionary_path + 'diccionario_empleo.csv')
 df_equivalencias = pd.read_csv(dictionary_path + 'diccionario_equivalencias.csv')
 df_collocations = pd.read_csv(dictionary_path + 'diccionario_collocation.csv')
 list_collocations = df_collocations['FORMAS'].tolist()
-
-
-# # Legacy functions
-
-# In[3]:
 
 
 def f_vector_palabras_json(texto, palabra_generica="T"):
@@ -506,16 +490,6 @@ def f_vector_collocation_json(texto):
 
 
 
-# # New functions
-
-# In[14]:
-
-
-import re
-from unidecode import unidecode
-
-expections = ["@", r"\."]
-
 def clean_text(text):
     # ! EXCEPCIONES MANUALES!!!
     # Cast exceptions to "a"
@@ -618,21 +592,11 @@ def find_lema(list_collocations):
         lema = df_collocations[df_collocations["FORMAS"] == collaction]["LEMA"].iloc[0]
         lemas.append(lema)
     return lemas
-
-def get_list_words(text):
-    # First clean text
-    text = clean_text(text)
-    # Filter words
-    list_words = filter_words(text)
-    # Get list of stems
-    list_stems = get_list_stems(list_words)
-    return list_stems
+        
 
 def get_collocations(descripcion_oferta):
     # Get all forms from the description
     list_forms = calculate_forms(descripcion_oferta)
-    # Get the list of separate words
-    list_stems = get_list_words(descripcion_oferta)
     # Find in the list of collocations
     list_collocations = find_collocations(list_forms)
     # Get the LEMA from the collocations
@@ -640,45 +604,3 @@ def get_collocations(descripcion_oferta):
     # Delete duplicates
     list_lema_non_duplicated = list(set(list_lema_found))
     return list_lema_non_duplicated
-
-
-# # Test
-
-# In[15]:
-
-
-df_offers = pd.read_json(data_path + "descripcion_ofertas_infojobs_21_23.json")
-# Get 100 random samples from the dataset
-df_test = df_offers.sample(100)
-
-# df_test["PALABRAS_LEGACY"] = df_test["descripcion_oferta"].apply(lambda x: f_vector_palabras_json(x))
-# df_test["COLLOCATIONS_LEGACY"] = df_test["descripcion_oferta"].apply(lambda x: json.loads(f_vector_collocation_json(x))["vector_collocation"])
-# df_test["PALABRAS_NEW"] = df_test["descripcion_oferta"].apply(get_words_by_text)
-df_test["COLLOCATIONS_NEW"] = df_test["descripcion_oferta"].apply(get_collocations)
-
-
-# # Save test file
-
-# In[16]:
-
-
-df_test.to_csv(data_path + "descripcion_ofertas_infojobs_21_23_test.csv", index=True, sep=";") 
-
-
-# # Calculate words and collocations by index
-
-# In[17]:
-
-
-def get_characteristics(df_offers, index):
-    offer = df_offers.iloc[index]
-    # Get the words from the description
-    offer["PALABRAS_LEGACY"] = f_vector_palabras_json(offer["descripcion_oferta"])
-    offer["COLLOCATIONS_LEGACY"] = json.loads(f_vector_collocation_json(offer["descripcion_oferta"]))["vector_collocation"]
-    offer["PALABRAS_NEW"] = get_words_by_text(offer["descripcion_oferta"])
-    offer["COLLOCATIONS_NEW"] = get_collocations(offer["descripcion_oferta"])
-    return offer.to_dict()
-
-offer = get_characteristics(df_offers, 0)
-print(offer)
-
